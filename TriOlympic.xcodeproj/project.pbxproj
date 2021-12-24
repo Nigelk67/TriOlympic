@@ -13,6 +13,9 @@
 		9BE9DD9F2775D5C800F30BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE9DD9E2775D5C800F30BCD /* Preview Assets.xcassets */; };
 		9BE9DDA12775D5C800F30BCD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DDA02775D5C800F30BCD /* Persistence.swift */; };
 		9BE9DDA42775D5C800F30BCD /* TriOlympic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DDA22775D5C800F30BCD /* TriOlympic.xcdatamodeld */; };
+		9BE9DDAC2775DB5D00F30BCD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9BE9DDAB2775DB5D00F30BCD /* FirebaseAuth */; };
+		9BE9DDAE2775DB5D00F30BCD /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9BE9DDAD2775DB5D00F30BCD /* FirebaseCrashlytics */; };
+		9BE9DDB02775DB5D00F30BCD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9BE9DDAF2775DB5D00F30BCD /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,7 @@
 		9BE9DD9E2775D5C800F30BCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BE9DDA02775D5C800F30BCD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		9BE9DDA32775D5C800F30BCD /* TriOlympic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TriOlympic.xcdatamodel; sourceTree = "<group>"; };
+		9BE9DDC52775DF8B00F30BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +34,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE9DDB02775DB5D00F30BCD /* FirebaseDatabase in Frameworks */,
+				9BE9DDAC2775DB5D00F30BCD /* FirebaseAuth in Frameworks */,
+				9BE9DDAE2775DB5D00F30BCD /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +62,7 @@
 		9BE9DD962775D5C600F30BCD /* TriOlympic */ = {
 			isa = PBXGroup;
 			children = (
+				9BE9DDC52775DF8B00F30BCD /* Info.plist */,
 				9BE9DD972775D5C600F30BCD /* TriOlympicApp.swift */,
 				9BE9DD992775D5C600F30BCD /* ContentView.swift */,
 				9BE9DD9B2775D5C800F30BCD /* Assets.xcassets */,
@@ -89,6 +97,11 @@
 			dependencies = (
 			);
 			name = TriOlympic;
+			packageProductDependencies = (
+				9BE9DDAB2775DB5D00F30BCD /* FirebaseAuth */,
+				9BE9DDAD2775DB5D00F30BCD /* FirebaseCrashlytics */,
+				9BE9DDAF2775DB5D00F30BCD /* FirebaseDatabase */,
+			);
 			productName = TriOlympic;
 			productReference = 9BE9DD942775D5C600F30BCD /* TriOlympic.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +130,9 @@
 				Base,
 			);
 			mainGroup = 9BE9DD8B2775D5C600F30BCD;
+			packageReferences = (
+				9BE9DDAA2775DB5D00F30BCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9BE9DD952775D5C600F30BCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -259,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,11 +296,15 @@
 				DEVELOPMENT_TEAM = 2FDNM75M67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TriOlympic/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to track your location to determine your stats";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +314,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,11 +329,15 @@
 				DEVELOPMENT_TEAM = 2FDNM75M67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TriOlympic/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to track your location to determine your stats";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,7 +347,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -349,6 +373,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9BE9DDAA2775DB5D00F30BCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9BE9DDAB2775DB5D00F30BCD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BE9DDAA2775DB5D00F30BCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9BE9DDAD2775DB5D00F30BCD /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BE9DDAA2775DB5D00F30BCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		9BE9DDAF2775DB5D00F30BCD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BE9DDAA2775DB5D00F30BCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9BE9DDA22775D5C800F30BCD /* TriOlympic.xcdatamodeld */ = {
