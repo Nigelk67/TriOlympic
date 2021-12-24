@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct TriOlympicApp: App {
     let persistenceController = PersistenceController.shared
-
+//try something to set up master
     var body: some Scene {
         WindowGroup {
             ContentView()
