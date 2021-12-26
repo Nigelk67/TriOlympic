@@ -66,7 +66,7 @@ extension LoginView {
     private var headerStack: some View {
         HStack {
         Text("TriOlympic")
-                .foregroundColor(Color.accentButton)
+                .foregroundColor(Color.mainBackground)
                 .font(.system(size: 32, weight: .semibold, design: .rounded))
                 .padding()
         }
