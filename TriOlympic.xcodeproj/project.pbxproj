@@ -9,24 +9,172 @@
 /* Begin PBXBuildFile section */
 		9BE9DD982775D5C600F30BCD /* TriOlympicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DD972775D5C600F30BCD /* TriOlympicApp.swift */; };
 		9BE9DD9A2775D5C600F30BCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DD992775D5C600F30BCD /* ContentView.swift */; };
-		9BE9DD9C2775D5C800F30BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE9DD9B2775D5C800F30BCD /* Assets.xcassets */; };
 		9BE9DD9F2775D5C800F30BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE9DD9E2775D5C800F30BCD /* Preview Assets.xcassets */; };
 		9BE9DDA12775D5C800F30BCD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DDA02775D5C800F30BCD /* Persistence.swift */; };
 		9BE9DDA42775D5C800F30BCD /* TriOlympic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DDA22775D5C800F30BCD /* TriOlympic.xcdatamodeld */; };
 		9BE9DDAC2775DB5D00F30BCD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9BE9DDAB2775DB5D00F30BCD /* FirebaseAuth */; };
 		9BE9DDAE2775DB5D00F30BCD /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9BE9DDAD2775DB5D00F30BCD /* FirebaseCrashlytics */; };
 		9BE9DDB02775DB5D00F30BCD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9BE9DDAF2775DB5D00F30BCD /* FirebaseDatabase */; };
+		9BE9DDC72775F96200F30BCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BE9DDC62775F96200F30BCD /* GoogleService-Info.plist */; };
+		9BE9DE9A2776020B00F30BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE9DE992776020B00F30BCD /* Assets.xcassets */; };
+		9BE9DEA32776022400F30BCD /* NoActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DE9C2776022400F30BCD /* NoActivityView.swift */; };
+		9BE9DEA42776022400F30BCD /* RunsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DE9D2776022400F30BCD /* RunsView.swift */; };
+		9BE9DEA52776022400F30BCD /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DE9F2776022400F30BCD /* ActivityViewModel.swift */; };
+		9BE9DEA62776022400F30BCD /* SwimsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEA02776022400F30BCD /* SwimsView.swift */; };
+		9BE9DEA72776022400F30BCD /* RidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEA12776022400F30BCD /* RidesView.swift */; };
+		9BE9DEA82776022400F30BCD /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEA22776022400F30BCD /* ActivityView.swift */; };
+		9BE9DEAE2776025C00F30BCD /* BikeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEAA2776025C00F30BCD /* BikeBackground.swift */; };
+		9BE9DEAF2776025C00F30BCD /* TriBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEAB2776025C00F30BCD /* TriBackground.swift */; };
+		9BE9DEB02776025C00F30BCD /* SwimBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEAC2776025C00F30BCD /* SwimBackground.swift */; };
+		9BE9DEB12776025C00F30BCD /* RunBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEAD2776025C00F30BCD /* RunBackground.swift */; };
+		9BE9DEB32776026900F30BCD /* HomeNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEB22776026900F30BCD /* HomeNavView.swift */; };
+		9BE9DEBD2776027600F30BCD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEB62776027600F30BCD /* HomeViewModel.swift */; };
+		9BE9DEBE2776027600F30BCD /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEB72776027600F30BCD /* ProgressBarView.swift */; };
+		9BE9DEBF2776027600F30BCD /* LineChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEB82776027600F30BCD /* LineChartViewModel.swift */; };
+		9BE9DEC02776027600F30BCD /* PieChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEB92776027600F30BCD /* PieChartModel.swift */; };
+		9BE9DEC12776027600F30BCD /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEBA2776027600F30BCD /* LineChartView.swift */; };
+		9BE9DEC22776027600F30BCD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEBB2776027600F30BCD /* HomeView.swift */; };
+		9BE9DEC32776027600F30BCD /* ComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEBC2776027600F30BCD /* ComparisonView.swift */; };
+		9BE9DEC82776029600F30BCD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEC52776029600F30BCD /* LoginView.swift */; };
+		9BE9DEC92776029600F30BCD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEC72776029600F30BCD /* LoginViewModel.swift */; };
+		9BE9DECD277602A200F30BCD /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DECB277602A200F30BCD /* MailView.swift */; };
+		9BE9DECE277602A200F30BCD /* Mail_Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DECC277602A200F30BCD /* Mail_Wrapper.swift */; };
+		9BE9DED0277602AF00F30BCD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DECF277602AF00F30BCD /* MainView.swift */; };
+		9BE9DEE7277602BD00F30BCD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DED2277602BD00F30BCD /* MapView.swift */; };
+		9BE9DEE8277602BD00F30BCD /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DED4277602BD00F30BCD /* MapViewModel.swift */; };
+		9BE9DEE9277602BD00F30BCD /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DED5277602BD00F30BCD /* MapKitView.swift */; };
+		9BE9DEEA277602BD00F30BCD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DED6277602BD00F30BCD /* LocationManager.swift */; };
+		9BE9DEEB277602BD00F30BCD /* DrillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DED7277602BD00F30BCD /* DrillsView.swift */; };
+		9BE9DEEC277602BD00F30BCD /* MailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DED9277602BD00F30BCD /* MailData.swift */; };
+		9BE9DEED277602BD00F30BCD /* TrainingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEDA277602BD00F30BCD /* TrainingPlan.swift */; };
+		9BE9DEEE277602BD00F30BCD /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEDB277602BD00F30BCD /* Glossary.swift */; };
+		9BE9DEEF277602BD00F30BCD /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEDC277602BD00F30BCD /* Ride.swift */; };
+		9BE9DEF0277602BD00F30BCD /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEDD277602BD00F30BCD /* Run.swift */; };
+		9BE9DEF1277602BD00F30BCD /* Swim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEDE277602BD00F30BCD /* Swim.swift */; };
+		9BE9DEF2277602BD00F30BCD /* FitnessLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEE0277602BD00F30BCD /* FitnessLevelView.swift */; };
+		9BE9DEF3277602BD00F30BCD /* FirstTriathlonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEE1277602BD00F30BCD /* FirstTriathlonView.swift */; };
+		9BE9DEF4277602BD00F30BCD /* MetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEE2277602BD00F30BCD /* MetricView.swift */; };
+		9BE9DEF5277602BD00F30BCD /* PersonaliseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEE3277602BD00F30BCD /* PersonaliseView.swift */; };
+		9BE9DEF6277602BD00F30BCD /* TrainingDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEE4277602BD00F30BCD /* TrainingDaysView.swift */; };
+		9BE9DEF7277602BD00F30BCD /* EnterManualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEE6277602BD00F30BCD /* EnterManualView.swift */; };
+		9BE9DF13277602D300F30BCD /* DetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEF9277602D300F30BCD /* DetailContentView.swift */; };
+		9BE9DF14277602D300F30BCD /* DetailViewButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEFA277602D300F30BCD /* DetailViewButtons.swift */; };
+		9BE9DF15277602D300F30BCD /* NoPlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEFB277602D300F30BCD /* NoPlansView.swift */; };
+		9BE9DF16277602D300F30BCD /* TrainingScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEFC277602D300F30BCD /* TrainingScheduleView.swift */; };
+		9BE9DF17277602D300F30BCD /* BrickDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEFD277602D300F30BCD /* BrickDetailContentView.swift */; };
+		9BE9DF18277602D300F30BCD /* DetailViewComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEFE277602D300F30BCD /* DetailViewComponents.swift */; };
+		9BE9DF19277602D300F30BCD /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DEFF277602D300F30BCD /* WeekView.swift */; };
+		9BE9DF1A277602D300F30BCD /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF01277602D300F30BCD /* ScheduleViewModel.swift */; };
+		9BE9DF1B277602D300F30BCD /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF03277602D300F30BCD /* RatingsView.swift */; };
+		9BE9DF1C277602D300F30BCD /* TrainingArrayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF05277602D300F30BCD /* TrainingArrayViewModel.swift */; };
+		9BE9DF1D277602D300F30BCD /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF08277602D300F30BCD /* SettingsViewModel.swift */; };
+		9BE9DF1E277602D300F30BCD /* GlossaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF09277602D300F30BCD /* GlossaryViewModel.swift */; };
+		9BE9DF1F277602D300F30BCD /* HalfModalAlerts_Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF0A277602D300F30BCD /* HalfModalAlerts_Settings.swift */; };
+		9BE9DF20277602D300F30BCD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF0B277602D300F30BCD /* SettingsView.swift */; };
+		9BE9DF21277602D300F30BCD /* EmailUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF0C277602D300F30BCD /* EmailUpdateView.swift */; };
+		9BE9DF22277602D300F30BCD /* ActionSheets_Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF0D277602D300F30BCD /* ActionSheets_Settings.swift */; };
+		9BE9DF23277602D300F30BCD /* PasswordChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF0E277602D300F30BCD /* PasswordChangeView.swift */; };
+		9BE9DF24277602D300F30BCD /* GlossaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF0F277602D300F30BCD /* GlossaryView.swift */; };
+		9BE9DF25277602D300F30BCD /* SettingsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF10277602D300F30BCD /* SettingsExtension.swift */; };
+		9BE9DF26277602D300F30BCD /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF12277602D300F30BCD /* SessionViewModel.swift */; };
+		9BE9DF36277602E500F30BCD /* 3Day.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BE9DF28277602E500F30BCD /* 3Day.plist */; };
+		9BE9DF37277602E500F30BCD /* CustomStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF29277602E500F30BCD /* CustomStyling.swift */; };
+		9BE9DF38277602E500F30BCD /* FormatDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF2A277602E500F30BCD /* FormatDisplay.swift */; };
+		9BE9DF39277602E500F30BCD /* 4Day.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BE9DF2B277602E500F30BCD /* 4Day.plist */; };
+		9BE9DF3A277602E500F30BCD /* 5Day.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BE9DF2C277602E500F30BCD /* 5Day.plist */; };
+		9BE9DF3B277602E500F30BCD /* CustomUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF2D277602E500F30BCD /* CustomUserDefaults.swift */; };
+		9BE9DF3C277602E500F30BCD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF2E277602E500F30BCD /* Extensions.swift */; };
+		9BE9DF3D277602E500F30BCD /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF2F277602E500F30BCD /* UnitConverter.swift */; };
+		9BE9DF3E277602E500F30BCD /* NumbersValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF30277602E500F30BCD /* NumbersValidation.swift */; };
+		9BE9DF3F277602E500F30BCD /* HalfSheetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF32277602E500F30BCD /* HalfSheetHelper.swift */; };
+		9BE9DF40277602E500F30BCD /* HalfModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF33277602E500F30BCD /* HalfModalView.swift */; };
+		9BE9DF41277602E500F30BCD /* CustomHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF34277602E500F30BCD /* CustomHostingController.swift */; };
+		9BE9DF42277602E500F30BCD /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9DF35277602E500F30BCD /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BE9DD942775D5C600F30BCD /* TriOlympic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriOlympic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE9DD972775D5C600F30BCD /* TriOlympicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriOlympicApp.swift; sourceTree = "<group>"; };
 		9BE9DD992775D5C600F30BCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9BE9DD9B2775D5C800F30BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BE9DD9E2775D5C800F30BCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BE9DDA02775D5C800F30BCD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		9BE9DDA32775D5C800F30BCD /* TriOlympic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TriOlympic.xcdatamodel; sourceTree = "<group>"; };
 		9BE9DDC52775DF8B00F30BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9BE9DDC62775F96200F30BCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9BE9DE992776020B00F30BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE9DE9C2776022400F30BCD /* NoActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoActivityView.swift; sourceTree = "<group>"; };
+		9BE9DE9D2776022400F30BCD /* RunsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunsView.swift; sourceTree = "<group>"; };
+		9BE9DE9F2776022400F30BCD /* ActivityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		9BE9DEA02776022400F30BCD /* SwimsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwimsView.swift; sourceTree = "<group>"; };
+		9BE9DEA12776022400F30BCD /* RidesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesView.swift; sourceTree = "<group>"; };
+		9BE9DEA22776022400F30BCD /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		9BE9DEAA2776025C00F30BCD /* BikeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeBackground.swift; sourceTree = "<group>"; };
+		9BE9DEAB2776025C00F30BCD /* TriBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriBackground.swift; sourceTree = "<group>"; };
+		9BE9DEAC2776025C00F30BCD /* SwimBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwimBackground.swift; sourceTree = "<group>"; };
+		9BE9DEAD2776025C00F30BCD /* RunBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunBackground.swift; sourceTree = "<group>"; };
+		9BE9DEB22776026900F30BCD /* HomeNavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavView.swift; sourceTree = "<group>"; };
+		9BE9DEB62776027600F30BCD /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9BE9DEB72776027600F30BCD /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		9BE9DEB82776027600F30BCD /* LineChartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartViewModel.swift; sourceTree = "<group>"; };
+		9BE9DEB92776027600F30BCD /* PieChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartModel.swift; sourceTree = "<group>"; };
+		9BE9DEBA2776027600F30BCD /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		9BE9DEBB2776027600F30BCD /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9BE9DEBC2776027600F30BCD /* ComparisonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComparisonView.swift; sourceTree = "<group>"; };
+		9BE9DEC52776029600F30BCD /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9BE9DEC72776029600F30BCD /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9BE9DECB277602A200F30BCD /* MailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		9BE9DECC277602A200F30BCD /* Mail_Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail_Wrapper.swift; sourceTree = "<group>"; };
+		9BE9DECF277602AF00F30BCD /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9BE9DED2277602BD00F30BCD /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9BE9DED4277602BD00F30BCD /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		9BE9DED5277602BD00F30BCD /* MapKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
+		9BE9DED6277602BD00F30BCD /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9BE9DED7277602BD00F30BCD /* DrillsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrillsView.swift; sourceTree = "<group>"; };
+		9BE9DED9277602BD00F30BCD /* MailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailData.swift; sourceTree = "<group>"; };
+		9BE9DEDA277602BD00F30BCD /* TrainingPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingPlan.swift; sourceTree = "<group>"; };
+		9BE9DEDB277602BD00F30BCD /* Glossary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
+		9BE9DEDC277602BD00F30BCD /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		9BE9DEDD277602BD00F30BCD /* Run.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		9BE9DEDE277602BD00F30BCD /* Swim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swim.swift; sourceTree = "<group>"; };
+		9BE9DEE0277602BD00F30BCD /* FitnessLevelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessLevelView.swift; sourceTree = "<group>"; };
+		9BE9DEE1277602BD00F30BCD /* FirstTriathlonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTriathlonView.swift; sourceTree = "<group>"; };
+		9BE9DEE2277602BD00F30BCD /* MetricView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricView.swift; sourceTree = "<group>"; };
+		9BE9DEE3277602BD00F30BCD /* PersonaliseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonaliseView.swift; sourceTree = "<group>"; };
+		9BE9DEE4277602BD00F30BCD /* TrainingDaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingDaysView.swift; sourceTree = "<group>"; };
+		9BE9DEE6277602BD00F30BCD /* EnterManualView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterManualView.swift; sourceTree = "<group>"; };
+		9BE9DEF9277602D300F30BCD /* DetailContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContentView.swift; sourceTree = "<group>"; };
+		9BE9DEFA277602D300F30BCD /* DetailViewButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewButtons.swift; sourceTree = "<group>"; };
+		9BE9DEFB277602D300F30BCD /* NoPlansView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoPlansView.swift; sourceTree = "<group>"; };
+		9BE9DEFC277602D300F30BCD /* TrainingScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingScheduleView.swift; sourceTree = "<group>"; };
+		9BE9DEFD277602D300F30BCD /* BrickDetailContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrickDetailContentView.swift; sourceTree = "<group>"; };
+		9BE9DEFE277602D300F30BCD /* DetailViewComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewComponents.swift; sourceTree = "<group>"; };
+		9BE9DEFF277602D300F30BCD /* WeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		9BE9DF01277602D300F30BCD /* ScheduleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		9BE9DF03277602D300F30BCD /* RatingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		9BE9DF05277602D300F30BCD /* TrainingArrayViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingArrayViewModel.swift; sourceTree = "<group>"; };
+		9BE9DF08277602D300F30BCD /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		9BE9DF09277602D300F30BCD /* GlossaryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryViewModel.swift; sourceTree = "<group>"; };
+		9BE9DF0A277602D300F30BCD /* HalfModalAlerts_Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalAlerts_Settings.swift; sourceTree = "<group>"; };
+		9BE9DF0B277602D300F30BCD /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9BE9DF0C277602D300F30BCD /* EmailUpdateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailUpdateView.swift; sourceTree = "<group>"; };
+		9BE9DF0D277602D300F30BCD /* ActionSheets_Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheets_Settings.swift; sourceTree = "<group>"; };
+		9BE9DF0E277602D300F30BCD /* PasswordChangeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeView.swift; sourceTree = "<group>"; };
+		9BE9DF0F277602D300F30BCD /* GlossaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryView.swift; sourceTree = "<group>"; };
+		9BE9DF10277602D300F30BCD /* SettingsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsExtension.swift; sourceTree = "<group>"; };
+		9BE9DF12277602D300F30BCD /* SessionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		9BE9DF28277602E500F30BCD /* 3Day.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3Day.plist; sourceTree = "<group>"; };
+		9BE9DF29277602E500F30BCD /* CustomStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyling.swift; sourceTree = "<group>"; };
+		9BE9DF2A277602E500F30BCD /* FormatDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatDisplay.swift; sourceTree = "<group>"; };
+		9BE9DF2B277602E500F30BCD /* 4Day.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 4Day.plist; sourceTree = "<group>"; };
+		9BE9DF2C277602E500F30BCD /* 5Day.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 5Day.plist; sourceTree = "<group>"; };
+		9BE9DF2D277602E500F30BCD /* CustomUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUserDefaults.swift; sourceTree = "<group>"; };
+		9BE9DF2E277602E500F30BCD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9BE9DF2F277602E500F30BCD /* UnitConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
+		9BE9DF30277602E500F30BCD /* NumbersValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersValidation.swift; sourceTree = "<group>"; };
+		9BE9DF32277602E500F30BCD /* HalfSheetHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfSheetHelper.swift; sourceTree = "<group>"; };
+		9BE9DF33277602E500F30BCD /* HalfModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalView.swift; sourceTree = "<group>"; };
+		9BE9DF34277602E500F30BCD /* CustomHostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHostingController.swift; sourceTree = "<group>"; };
+		9BE9DF35277602E500F30BCD /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +211,29 @@
 			isa = PBXGroup;
 			children = (
 				9BE9DDC52775DF8B00F30BCD /* Info.plist */,
+				9BE9DEA92776025C00F30BCD /* BackgroundViews */,
 				9BE9DD972775D5C600F30BCD /* TriOlympicApp.swift */,
+				9BE9DEB22776026900F30BCD /* HomeNavView.swift */,
+				9BE9DECF277602AF00F30BCD /* MainView.swift */,
+				9BE9DED8277602BD00F30BCD /* Model */,
+				9BE9DEC42776029600F30BCD /* LoginView */,
+				9BE9DEB42776027600F30BCD /* HomeView */,
+				9BE9DE9B2776022400F30BCD /* Activity */,
+				9BE9DEE5277602BD00F30BCD /* ManualAdd */,
+				9BE9DED1277602BD00F30BCD /* MapView */,
+				9BE9DEDF277602BD00F30BCD /* OnboardingViews */,
+				9BE9DECA277602A200F30BCD /* MailView */,
+				9BE9DF02277602D300F30BCD /* Ratings */,
+				9BE9DEF8277602D300F30BCD /* Schedule */,
+				9BE9DF11277602D300F30BCD /* SessionViewModel */,
+				9BE9DF06277602D300F30BCD /* Settings */,
+				9BE9DF04277602D300F30BCD /* TrainingViewModel */,
+				9BE9DF27277602E500F30BCD /* Utils */,
 				9BE9DD992775D5C600F30BCD /* ContentView.swift */,
-				9BE9DD9B2775D5C800F30BCD /* Assets.xcassets */,
 				9BE9DDA02775D5C800F30BCD /* Persistence.swift */,
+				9BE9DE992776020B00F30BCD /* Assets.xcassets */,
 				9BE9DDA22775D5C800F30BCD /* TriOlympic.xcdatamodeld */,
+				9BE9DDC62775F96200F30BCD /* GoogleService-Info.plist */,
 				9BE9DD9D2775D5C800F30BCD /* Preview Content */,
 			);
 			path = TriOlympic;
@@ -79,6 +245,238 @@
 				9BE9DD9E2775D5C800F30BCD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BE9DE9B2776022400F30BCD /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DE9C2776022400F30BCD /* NoActivityView.swift */,
+				9BE9DE9D2776022400F30BCD /* RunsView.swift */,
+				9BE9DE9E2776022400F30BCD /* ActivityViewModel */,
+				9BE9DEA02776022400F30BCD /* SwimsView.swift */,
+				9BE9DEA12776022400F30BCD /* RidesView.swift */,
+				9BE9DEA22776022400F30BCD /* ActivityView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		9BE9DE9E2776022400F30BCD /* ActivityViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DE9F2776022400F30BCD /* ActivityViewModel.swift */,
+			);
+			path = ActivityViewModel;
+			sourceTree = "<group>";
+		};
+		9BE9DEA92776025C00F30BCD /* BackgroundViews */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DEAA2776025C00F30BCD /* BikeBackground.swift */,
+				9BE9DEAB2776025C00F30BCD /* TriBackground.swift */,
+				9BE9DEAC2776025C00F30BCD /* SwimBackground.swift */,
+				9BE9DEAD2776025C00F30BCD /* RunBackground.swift */,
+			);
+			path = BackgroundViews;
+			sourceTree = "<group>";
+		};
+		9BE9DEB42776027600F30BCD /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DEB52776027600F30BCD /* ViewModels */,
+				9BE9DEBA2776027600F30BCD /* LineChartView.swift */,
+				9BE9DEBB2776027600F30BCD /* HomeView.swift */,
+				9BE9DEBC2776027600F30BCD /* ComparisonView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		9BE9DEB52776027600F30BCD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DEB62776027600F30BCD /* HomeViewModel.swift */,
+				9BE9DEB72776027600F30BCD /* ProgressBarView.swift */,
+				9BE9DEB82776027600F30BCD /* LineChartViewModel.swift */,
+				9BE9DEB92776027600F30BCD /* PieChartModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9BE9DEC42776029600F30BCD /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DEC52776029600F30BCD /* LoginView.swift */,
+				9BE9DEC62776029600F30BCD /* LoginViewModel */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		9BE9DEC62776029600F30BCD /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DEC72776029600F30BCD /* LoginViewModel.swift */,
+			);
+			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		9BE9DECA277602A200F30BCD /* MailView */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DECB277602A200F30BCD /* MailView.swift */,
+				9BE9DECC277602A200F30BCD /* Mail_Wrapper.swift */,
+			);
+			path = MailView;
+			sourceTree = "<group>";
+		};
+		9BE9DED1277602BD00F30BCD /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DED2277602BD00F30BCD /* MapView.swift */,
+				9BE9DED3277602BD00F30BCD /* MapViewModel */,
+				9BE9DED5277602BD00F30BCD /* MapKitView.swift */,
+				9BE9DED6277602BD00F30BCD /* LocationManager.swift */,
+				9BE9DED7277602BD00F30BCD /* DrillsView.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		9BE9DED3277602BD00F30BCD /* MapViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DED4277602BD00F30BCD /* MapViewModel.swift */,
+			);
+			path = MapViewModel;
+			sourceTree = "<group>";
+		};
+		9BE9DED8277602BD00F30BCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DED9277602BD00F30BCD /* MailData.swift */,
+				9BE9DEDA277602BD00F30BCD /* TrainingPlan.swift */,
+				9BE9DEDB277602BD00F30BCD /* Glossary.swift */,
+				9BE9DEDC277602BD00F30BCD /* Ride.swift */,
+				9BE9DEDD277602BD00F30BCD /* Run.swift */,
+				9BE9DEDE277602BD00F30BCD /* Swim.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BE9DEDF277602BD00F30BCD /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DEE0277602BD00F30BCD /* FitnessLevelView.swift */,
+				9BE9DEE1277602BD00F30BCD /* FirstTriathlonView.swift */,
+				9BE9DEE2277602BD00F30BCD /* MetricView.swift */,
+				9BE9DEE3277602BD00F30BCD /* PersonaliseView.swift */,
+				9BE9DEE4277602BD00F30BCD /* TrainingDaysView.swift */,
+			);
+			path = OnboardingViews;
+			sourceTree = "<group>";
+		};
+		9BE9DEE5277602BD00F30BCD /* ManualAdd */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DEE6277602BD00F30BCD /* EnterManualView.swift */,
+			);
+			path = ManualAdd;
+			sourceTree = "<group>";
+		};
+		9BE9DEF8277602D300F30BCD /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DEF9277602D300F30BCD /* DetailContentView.swift */,
+				9BE9DEFA277602D300F30BCD /* DetailViewButtons.swift */,
+				9BE9DEFB277602D300F30BCD /* NoPlansView.swift */,
+				9BE9DEFC277602D300F30BCD /* TrainingScheduleView.swift */,
+				9BE9DEFD277602D300F30BCD /* BrickDetailContentView.swift */,
+				9BE9DEFE277602D300F30BCD /* DetailViewComponents.swift */,
+				9BE9DEFF277602D300F30BCD /* WeekView.swift */,
+				9BE9DF00277602D300F30BCD /* ScheduleViewModel */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		9BE9DF00277602D300F30BCD /* ScheduleViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DF01277602D300F30BCD /* ScheduleViewModel.swift */,
+			);
+			path = ScheduleViewModel;
+			sourceTree = "<group>";
+		};
+		9BE9DF02277602D300F30BCD /* Ratings */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DF03277602D300F30BCD /* RatingsView.swift */,
+			);
+			path = Ratings;
+			sourceTree = "<group>";
+		};
+		9BE9DF04277602D300F30BCD /* TrainingViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DF05277602D300F30BCD /* TrainingArrayViewModel.swift */,
+			);
+			path = TrainingViewModel;
+			sourceTree = "<group>";
+		};
+		9BE9DF06277602D300F30BCD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DF07277602D300F30BCD /* ViewModel */,
+				9BE9DF0A277602D300F30BCD /* HalfModalAlerts_Settings.swift */,
+				9BE9DF0B277602D300F30BCD /* SettingsView.swift */,
+				9BE9DF0C277602D300F30BCD /* EmailUpdateView.swift */,
+				9BE9DF0D277602D300F30BCD /* ActionSheets_Settings.swift */,
+				9BE9DF0E277602D300F30BCD /* PasswordChangeView.swift */,
+				9BE9DF0F277602D300F30BCD /* GlossaryView.swift */,
+				9BE9DF10277602D300F30BCD /* SettingsExtension.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9BE9DF07277602D300F30BCD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DF08277602D300F30BCD /* SettingsViewModel.swift */,
+				9BE9DF09277602D300F30BCD /* GlossaryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9BE9DF11277602D300F30BCD /* SessionViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DF12277602D300F30BCD /* SessionViewModel.swift */,
+			);
+			path = SessionViewModel;
+			sourceTree = "<group>";
+		};
+		9BE9DF27277602E500F30BCD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DF28277602E500F30BCD /* 3Day.plist */,
+				9BE9DF2B277602E500F30BCD /* 4Day.plist */,
+				9BE9DF2C277602E500F30BCD /* 5Day.plist */,
+				9BE9DF29277602E500F30BCD /* CustomStyling.swift */,
+				9BE9DF2A277602E500F30BCD /* FormatDisplay.swift */,
+				9BE9DF2D277602E500F30BCD /* CustomUserDefaults.swift */,
+				9BE9DF2E277602E500F30BCD /* Extensions.swift */,
+				9BE9DF2F277602E500F30BCD /* UnitConverter.swift */,
+				9BE9DF30277602E500F30BCD /* NumbersValidation.swift */,
+				9BE9DF31277602E500F30BCD /* HalfSheetModal */,
+				9BE9DF35277602E500F30BCD /* LoadingView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9BE9DF31277602E500F30BCD /* HalfSheetModal */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9DF32277602E500F30BCD /* HalfSheetHelper.swift */,
+				9BE9DF33277602E500F30BCD /* HalfModalView.swift */,
+				9BE9DF34277602E500F30BCD /* CustomHostingController.swift */,
+			);
+			path = HalfSheetModal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +546,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BE9DD9F2775D5C800F30BCD /* Preview Assets.xcassets in Resources */,
-				9BE9DD9C2775D5C800F30BCD /* Assets.xcassets in Resources */,
+				9BE9DF39277602E500F30BCD /* 4Day.plist in Resources */,
+				9BE9DF36277602E500F30BCD /* 3Day.plist in Resources */,
+				9BE9DF3A277602E500F30BCD /* 5Day.plist in Resources */,
+				9BE9DE9A2776020B00F30BCD /* Assets.xcassets in Resources */,
+				9BE9DDC72775F96200F30BCD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,10 +561,80 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE9DECE277602A200F30BCD /* Mail_Wrapper.swift in Sources */,
+				9BE9DF40277602E500F30BCD /* HalfModalView.swift in Sources */,
+				9BE9DEA72776022400F30BCD /* RidesView.swift in Sources */,
+				9BE9DEF6277602BD00F30BCD /* TrainingDaysView.swift in Sources */,
+				9BE9DEF4277602BD00F30BCD /* MetricView.swift in Sources */,
+				9BE9DF42277602E500F30BCD /* LoadingView.swift in Sources */,
+				9BE9DEA62776022400F30BCD /* SwimsView.swift in Sources */,
+				9BE9DEF3277602BD00F30BCD /* FirstTriathlonView.swift in Sources */,
+				9BE9DF37277602E500F30BCD /* CustomStyling.swift in Sources */,
+				9BE9DF19277602D300F30BCD /* WeekView.swift in Sources */,
+				9BE9DEF2277602BD00F30BCD /* FitnessLevelView.swift in Sources */,
+				9BE9DF17277602D300F30BCD /* BrickDetailContentView.swift in Sources */,
+				9BE9DF1F277602D300F30BCD /* HalfModalAlerts_Settings.swift in Sources */,
+				9BE9DEF7277602BD00F30BCD /* EnterManualView.swift in Sources */,
+				9BE9DEA42776022400F30BCD /* RunsView.swift in Sources */,
+				9BE9DF1A277602D300F30BCD /* ScheduleViewModel.swift in Sources */,
+				9BE9DF16277602D300F30BCD /* TrainingScheduleView.swift in Sources */,
+				9BE9DEC02776027600F30BCD /* PieChartModel.swift in Sources */,
+				9BE9DF21277602D300F30BCD /* EmailUpdateView.swift in Sources */,
+				9BE9DEEF277602BD00F30BCD /* Ride.swift in Sources */,
+				9BE9DF14277602D300F30BCD /* DetailViewButtons.swift in Sources */,
+				9BE9DF3F277602E500F30BCD /* HalfSheetHelper.swift in Sources */,
+				9BE9DECD277602A200F30BCD /* MailView.swift in Sources */,
+				9BE9DEC82776029600F30BCD /* LoginView.swift in Sources */,
+				9BE9DF38277602E500F30BCD /* FormatDisplay.swift in Sources */,
+				9BE9DEEA277602BD00F30BCD /* LocationManager.swift in Sources */,
+				9BE9DEBD2776027600F30BCD /* HomeViewModel.swift in Sources */,
+				9BE9DEB32776026900F30BCD /* HomeNavView.swift in Sources */,
+				9BE9DEA82776022400F30BCD /* ActivityView.swift in Sources */,
 				9BE9DDA12775D5C800F30BCD /* Persistence.swift in Sources */,
+				9BE9DEA52776022400F30BCD /* ActivityViewModel.swift in Sources */,
+				9BE9DF24277602D300F30BCD /* GlossaryView.swift in Sources */,
+				9BE9DEE9277602BD00F30BCD /* MapKitView.swift in Sources */,
+				9BE9DF3D277602E500F30BCD /* UnitConverter.swift in Sources */,
 				9BE9DD9A2775D5C600F30BCD /* ContentView.swift in Sources */,
+				9BE9DF3C277602E500F30BCD /* Extensions.swift in Sources */,
+				9BE9DEB02776025C00F30BCD /* SwimBackground.swift in Sources */,
+				9BE9DEEB277602BD00F30BCD /* DrillsView.swift in Sources */,
+				9BE9DEC12776027600F30BCD /* LineChartView.swift in Sources */,
+				9BE9DEF5277602BD00F30BCD /* PersonaliseView.swift in Sources */,
+				9BE9DF26277602D300F30BCD /* SessionViewModel.swift in Sources */,
+				9BE9DF1D277602D300F30BCD /* SettingsViewModel.swift in Sources */,
+				9BE9DEAE2776025C00F30BCD /* BikeBackground.swift in Sources */,
+				9BE9DEEE277602BD00F30BCD /* Glossary.swift in Sources */,
+				9BE9DF1B277602D300F30BCD /* RatingsView.swift in Sources */,
+				9BE9DF1E277602D300F30BCD /* GlossaryViewModel.swift in Sources */,
+				9BE9DEC32776027600F30BCD /* ComparisonView.swift in Sources */,
+				9BE9DEED277602BD00F30BCD /* TrainingPlan.swift in Sources */,
+				9BE9DEE8277602BD00F30BCD /* MapViewModel.swift in Sources */,
+				9BE9DEBF2776027600F30BCD /* LineChartViewModel.swift in Sources */,
+				9BE9DEF0277602BD00F30BCD /* Run.swift in Sources */,
+				9BE9DF15277602D300F30BCD /* NoPlansView.swift in Sources */,
+				9BE9DF13277602D300F30BCD /* DetailContentView.swift in Sources */,
+				9BE9DEA32776022400F30BCD /* NoActivityView.swift in Sources */,
+				9BE9DED0277602AF00F30BCD /* MainView.swift in Sources */,
+				9BE9DEC22776027600F30BCD /* HomeView.swift in Sources */,
+				9BE9DEF1277602BD00F30BCD /* Swim.swift in Sources */,
+				9BE9DF20277602D300F30BCD /* SettingsView.swift in Sources */,
+				9BE9DEEC277602BD00F30BCD /* MailData.swift in Sources */,
+				9BE9DEE7277602BD00F30BCD /* MapView.swift in Sources */,
+				9BE9DEAF2776025C00F30BCD /* TriBackground.swift in Sources */,
+				9BE9DF22277602D300F30BCD /* ActionSheets_Settings.swift in Sources */,
+				9BE9DF3E277602E500F30BCD /* NumbersValidation.swift in Sources */,
+				9BE9DF3B277602E500F30BCD /* CustomUserDefaults.swift in Sources */,
+				9BE9DEB12776025C00F30BCD /* RunBackground.swift in Sources */,
+				9BE9DEC92776029600F30BCD /* LoginViewModel.swift in Sources */,
+				9BE9DF23277602D300F30BCD /* PasswordChangeView.swift in Sources */,
 				9BE9DD982775D5C600F30BCD /* TriOlympicApp.swift in Sources */,
+				9BE9DF25277602D300F30BCD /* SettingsExtension.swift in Sources */,
 				9BE9DDA42775D5C800F30BCD /* TriOlympic.xcdatamodeld in Sources */,
+				9BE9DEBE2776027600F30BCD /* ProgressBarView.swift in Sources */,
+				9BE9DF41277602E500F30BCD /* CustomHostingController.swift in Sources */,
+				9BE9DF1C277602D300F30BCD /* TrainingArrayViewModel.swift in Sources */,
+				9BE9DF18277602D300F30BCD /* DetailViewComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
