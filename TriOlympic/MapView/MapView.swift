@@ -48,7 +48,7 @@ struct MapView: View {
                 headerStack
             
                 Text(("Day: \(plan.day ?? "")"))
-                    .foregroundColor(Color.accentButton)
+                    .foregroundColor(Color.mainBackground)
                     .font(.system(size: 26, weight: .medium, design: .rounded))
                     
                 TargetStack(plan: $plan, targetTime: $targetTime, targetRpe: $targetRpe, showDrillsPopup: $showDrillsPopup)
@@ -164,7 +164,7 @@ extension MapView {
                     .font(.body)
                     .foregroundColor(Color.mainText)
                 Text(sessionVm.timeText)
-                    .foregroundColor(Color.mainButton)
+                    .foregroundColor(Color.mainBackground)
                     .font(Font.monospacedDigit(.title3)())
             }
             HStack {
@@ -172,7 +172,7 @@ extension MapView {
                     .font(.body)
                     .foregroundColor(Color.mainText)
                 Text(sessionVm.distanceText)
-                    .foregroundColor(Color.mainButton)
+                    .foregroundColor(Color.mainBackground)
                     .font(Font.monospacedDigit(.title3)())
             }
             HStack {
@@ -180,7 +180,7 @@ extension MapView {
                     .font(.body)
                     .foregroundColor(Color.mainText)
                 Text(sessionVm.paceText)
-                    .foregroundColor(Color.mainButton)
+                    .foregroundColor(Color.mainBackground)
                     .font(Font.monospacedDigit(.title3)())
             }
         }

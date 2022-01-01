@@ -39,7 +39,7 @@ struct HomeView: View {
             TriBackground()
             VStack {
                 Text("Progress")
-                    .foregroundColor(Color.accentButton)
+                    .foregroundColor(Color.mainBackground)
                     .font(.system(size: 32, weight: .medium, design: .rounded))
                     .padding(.vertical)
                 ScrollView(showsIndicators: false) {

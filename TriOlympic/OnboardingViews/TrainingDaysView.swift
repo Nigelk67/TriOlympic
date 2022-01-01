@@ -138,7 +138,7 @@ extension TrainingDaysView {
                     trainingPlanVm.hasLoadedPlans = false
                 } label: {
                     Text("I'm READY! 🏊🏼🚴🏼‍♀️🏃🏾!")
-                        .foregroundColor(Color.mainButton)
+                        .foregroundColor(Color.accentButton)
                         .font(.system(size: 24, weight: .regular, design: .rounded))
                         .multilineTextAlignment(.center)
                         .padding()

@@ -26,7 +26,7 @@ struct TrainingScheduleView: View {
                 VStack {
                     ScrollView() {
                         Text("Training Schedule")
-                            .foregroundColor(Color.accentButton)
+                            .foregroundColor(Color.mainBackground)
                             .font(.system(size: 32, weight: .medium, design: .rounded))
                             .padding(.vertical)
                         if !plans.isEmpty {

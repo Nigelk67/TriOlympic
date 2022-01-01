@@ -66,7 +66,7 @@ extension ActivityView {
                             Spacer()
                             ForEach(swims) { swim in
                                 SwimsView(swim: swim)
-                                    .frame(width: fullView.size.width - 40, height: 200, alignment: .center)
+                                    .frame(width: (fullView.size.width - 40), height: 200, alignment: .center)
                                     .padding(.bottom,20)
                                     .shadow(color: .gray, radius: 4, x: 5, y: 5)
                             }.onDelete(perform: removeRow)
@@ -76,7 +76,7 @@ extension ActivityView {
                             Spacer()
                             ForEach(rides) { ride in
                                 RidesView(ride: ride)
-                                    .frame(width: fullView.size.width - 40, height: 200, alignment: .center)
+                                    .frame(width: (fullView.size.width - 40), height: 200, alignment: .center)
                                     .padding(.bottom,20)
                                     .shadow(color: .gray, radius: 4, x: 5, y: 5)
                             }
@@ -86,7 +86,7 @@ extension ActivityView {
                             Spacer()
                             ForEach(runs) { run in
                                 RunsView(run: run)
-                                    .frame(width: fullView.size.width - 40, height: 200, alignment: .center)
+                                    .frame(width: (fullView.size.width - 40), height: 200, alignment: .center)
                                     .padding(.bottom,20)
                                     .shadow(color: .gray, radius: 4, x: 5, y: 5)
                             }

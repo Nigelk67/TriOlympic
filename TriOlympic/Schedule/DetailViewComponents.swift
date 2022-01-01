@@ -41,7 +41,7 @@ struct DayView: View {
     @State var day: String
     var body: some View {
         Text("Day: \(day)")
-            .foregroundColor(Color.accentButton)
+            .foregroundColor(Color.mainBackground)
             .font(.system(size: 28, weight: .medium, design: .rounded))
     }
 }

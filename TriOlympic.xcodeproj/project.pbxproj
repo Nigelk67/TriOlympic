@@ -217,14 +217,14 @@
 				9BE9DECF277602AF00F30BCD /* MainView.swift */,
 				9BE9DED8277602BD00F30BCD /* Model */,
 				9BE9DEC42776029600F30BCD /* LoginView */,
+				9BE9DEDF277602BD00F30BCD /* OnboardingViews */,
 				9BE9DEB42776027600F30BCD /* HomeView */,
-				9BE9DE9B2776022400F30BCD /* Activity */,
+				9BE9DEF8277602D300F30BCD /* Schedule */,
 				9BE9DEE5277602BD00F30BCD /* ManualAdd */,
 				9BE9DED1277602BD00F30BCD /* MapView */,
-				9BE9DEDF277602BD00F30BCD /* OnboardingViews */,
+				9BE9DE9B2776022400F30BCD /* Activity */,
 				9BE9DECA277602A200F30BCD /* MailView */,
 				9BE9DF02277602D300F30BCD /* Ratings */,
-				9BE9DEF8277602D300F30BCD /* Schedule */,
 				9BE9DF11277602D300F30BCD /* SessionViewModel */,
 				9BE9DF06277602D300F30BCD /* Settings */,
 				9BE9DF04277602D300F30BCD /* TrainingViewModel */,
@@ -250,9 +250,9 @@
 		9BE9DE9B2776022400F30BCD /* Activity */ = {
 			isa = PBXGroup;
 			children = (
+				9BE9DE9E2776022400F30BCD /* ActivityViewModel */,
 				9BE9DE9C2776022400F30BCD /* NoActivityView.swift */,
 				9BE9DE9D2776022400F30BCD /* RunsView.swift */,
-				9BE9DE9E2776022400F30BCD /* ActivityViewModel */,
 				9BE9DEA02776022400F30BCD /* SwimsView.swift */,
 				9BE9DEA12776022400F30BCD /* RidesView.swift */,
 				9BE9DEA22776022400F30BCD /* ActivityView.swift */,
@@ -283,8 +283,8 @@
 			isa = PBXGroup;
 			children = (
 				9BE9DEB52776027600F30BCD /* ViewModels */,
-				9BE9DEBA2776027600F30BCD /* LineChartView.swift */,
 				9BE9DEBB2776027600F30BCD /* HomeView.swift */,
+				9BE9DEBA2776027600F30BCD /* LineChartView.swift */,
 				9BE9DEBC2776027600F30BCD /* ComparisonView.swift */,
 			);
 			path = HomeView;
@@ -383,13 +383,13 @@
 		9BE9DEF8277602D300F30BCD /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				9BE9DEFC277602D300F30BCD /* TrainingScheduleView.swift */,
+				9BE9DEFF277602D300F30BCD /* WeekView.swift */,
 				9BE9DEF9277602D300F30BCD /* DetailContentView.swift */,
 				9BE9DEFA277602D300F30BCD /* DetailViewButtons.swift */,
 				9BE9DEFB277602D300F30BCD /* NoPlansView.swift */,
-				9BE9DEFC277602D300F30BCD /* TrainingScheduleView.swift */,
 				9BE9DEFD277602D300F30BCD /* BrickDetailContentView.swift */,
 				9BE9DEFE277602D300F30BCD /* DetailViewComponents.swift */,
-				9BE9DEFF277602D300F30BCD /* WeekView.swift */,
 				9BE9DF00277602D300F30BCD /* ScheduleViewModel */,
 			);
 			path = Schedule;

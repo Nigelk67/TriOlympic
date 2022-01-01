@@ -48,7 +48,7 @@ struct SettingsView: View {
                 VStack {
                     ScrollView {
                         Text("Settings")
-                            .foregroundColor(Color.accentButton)
+                            .foregroundColor(Color.mainBackground)
                             .font(.system(size: 32, weight: .medium, design: .rounded))
                             .padding(.vertical)
                         
