@@ -52,7 +52,7 @@ struct EnterManualView: View {
                         .padding(.leading,20)
                     
                     Text("Day: \(plan.day ?? "")")
-                        .foregroundColor(Color.accentButton)
+                        .foregroundColor(Color.mainBackground)
                         .font(.system(size: 26, weight: .medium, design: .rounded))
                         .padding()
 

@@ -38,7 +38,7 @@ struct SmallGreenButtonWithBool: ViewModifier {
             .font(.footnote)
             .padding(EdgeInsets(top: 4, leading: 6, bottom: 4, trailing: 6))
             .foregroundColor(Color.white)
-            .background(isDisabled ? Color.gray.opacity(0.3) : Color.accentButton)
+            .background(isDisabled ? Color.gray.opacity(0.3) : Color.mainButton)
             .cornerRadius(10)
     }
 }
