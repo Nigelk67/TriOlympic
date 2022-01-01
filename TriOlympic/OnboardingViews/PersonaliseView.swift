@@ -37,7 +37,7 @@ extension PersonaliseView {
     private var header: some View {
         VStack {
             Text("Personalise")
-                .foregroundColor(Color.accentButton)
+                .foregroundColor(Color.mainText)
                 .font(.system(size: 32, weight: .medium, design: .rounded))
                 .padding(.vertical)
         }
@@ -46,7 +46,7 @@ extension PersonaliseView {
     private var textStack: some View {
         VStack {
             Text(welcomeTextHeader)
-                .foregroundColor(Color.accentButton)
+                .foregroundColor(Color.mainText)
                 .font(.system(size: 24, weight: .medium, design: .rounded))
                 .multilineTextAlignment(.center)
                 .padding()
@@ -57,7 +57,7 @@ extension PersonaliseView {
                 .padding()
         }
         .frame(width: 300)
-        .background(Color.white.opacity(0.4))
+        .background(Color.accentButton.opacity(0.4))
         .cornerRadius(10)
     }
     

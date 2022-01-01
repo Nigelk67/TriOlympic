@@ -14,16 +14,15 @@
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
-          <string>30</string>
+          <string>40</string>
           <key>swimrpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>swimdescription</key>
-          <string>BENCHMARK
-Within each 10 minute block you can take as much rest at each end as you need. Record your distance so you can track your progress. 
+          <string>Within each 15 minute block you can take as much rest at each end as you need. Record your distance so you can track your progress. 
 
-10 mins fc - or 4 x fc/1 x breast stroke 
-10 mins pull buoy
-10 mins pull and paddles</string>
+15 mins fc - or 50 fc/25 breast stroke 
+15 mins pull buoy
+15 mins pull and paddles</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -55,11 +54,17 @@ Within each 10 minute block you can take as much rest at each end as you need. R
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>75</string>
+          <string>60</string>
           <key>riderpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>ridedescription</key>
-          <string></string>
+          <string>10 mins easy warm up
+4 mins - start easy, get faster every minute to raise HR
+
+Main Set - 40 mins as:
+3 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
+
+Cool down 10 mins</string>
           <key>runtime</key>
           <string></string>
           <key>runrpe</key>
@@ -109,25 +114,27 @@ Within each 10 minute block you can take as much rest at each end as you need. R
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
-          <string>30</string>
+          <string>40</string>
           <key>swimrpe</key>
-          <string>3</string>
+          <string></string>
           <key>swimdescription</key>
-          <string>EXHALING DRILL 1:
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Warm Up:
+100 any stroke / 50 fc/ 100 any stroke/ 50 fc
 
-Take the rest that you feel like you need between reps.
+Take the rest that you feel like you need between reps
 
-4 x 25m of each of:-
-- Push off (torpedo) practice exhaling bubbles as you kick your legs. When you need to breathe, swim to the end ( any stroke) 
-- Fc, focus on exhaling
-- Blowing out through your mouth whilst your face is in the water  
-- Fc swim, focus on exhaling
-- Fc - 1&amp;3 breathing every 2 to your weak side 
-- Fc - focus on exhaling</string>
+Main Set:
+4 x 25 - push off (torpedo) practice exhaling bubbles as you kick your legs. When you need to breathe, swim to the end ( any stroke) 
+
+2 x 50 fc swim, focus on exhaling
+
+4 x 25 Blowing out through your mouth whilst your face is in the water  
+
+2 x 50 fc swim, focus on exhaling
+
+4 x 25 fc - 1&amp;3 breathing every 2 to your weak side, 2&amp;4 
+
+2x50 swim focus on exhaling</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -159,7 +166,7 @@ Take the rest that you feel like you need between reps.
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>90</string>
+          <string>75</string>
           <key>riderpe</key>
           <string>4</string>
           <key>ridedescription</key>
@@ -195,7 +202,7 @@ Take the rest that you feel like you need between reps.
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>25</string>
+          <string>30</string>
           <key>runrpe</key>
           <string>3</string>
           <key>rundescription</key>
@@ -217,13 +224,16 @@ Take the rest that you feel like you need between reps.
           <key>swimrpe</key>
           <string>3</string>
           <key>swimdescription</key>
-          <string>PULL &amp; PADDLES 1
-10 mins easy swim
+          <string>Warm Up:
+10 mins easy swim - mix drills and full stroke
 
-Repeat for 50 mins. 10 x 25m of each: 
-- Pull R:20 
-- Pull and paddles R:30
-- Pull R: 1 min</string>
+Main Set:
+Repeat for 50 mins 
+
+3 x 100 pull R:20 
+1 x 300 pull and paddles R:30
+3 x 100 pull
+R: 1 min</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -263,7 +273,7 @@ Repeat for 50 mins. 10 x 25m of each:
 4 mins - start easy, get faster every minute to raise HR
 
 Main Set - 40 mins as:
-6 mins BIG GEAR - HIGH RESISTANCE @ 55 RPM / 2 mins recoveries
+4 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
 
 Cool down 10 mins</string>
           <key>runtime</key>
@@ -297,11 +307,15 @@ Cool down 10 mins</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>30</string>
+          <string>60</string>
           <key>runrpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>rundescription</key>
-          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+          <string>Warm up for 10-15 mins easy. 
+
+Interval set: 7 x 3 mins (7/10 RPE) Rest 2 mins. 
+
+Cool down to finish</string>
     </dict>
     <dict>
           <key>week</key>
@@ -315,23 +329,19 @@ Cool down 10 mins</string>
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
-          <string>45</string>
+          <string>60</string>
           <key>swimrpe</key>
-          <string>4</string>
+          <string>3</string>
           <key>swimdescription</key>
-          <string>PULL 1
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Warm Up:
+10 mins easy swim - mix drills and full stroke
 
-Take the rest that you feel like you need between reps
-4 x 25m of each of:
-- 10m scull (pull buoy) 15m swim 
-- Fc pull 
-- 10m doggy paddle (pull buoy) 15m swim 
-- Fc pull 
-- 10m scull (pull buoy) 15m swim</string>
+Main Set:
+Repeat for 50 mins 
+
+4 x 100 pull R:20
+1 x 400 pull R:30
+4 x 100 pull R:20</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -363,17 +373,11 @@ Take the rest that you feel like you need between reps
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>60</string>
+          <string>90</string>
           <key>riderpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>ridedescription</key>
-          <string>10 mins easy warm up
-4 mins - start easy, get faster every minute to raise HR
-
-Main Set - 40 mins as:
-3 mins BIG GEAR - HIGH RESISTANCE @ 55 RPM / 2 mins recoveries
-
-Cool down 10 mins</string>
+          <string></string>
           <key>runtime</key>
           <string></string>
           <key>runrpe</key>
@@ -405,11 +409,11 @@ Cool down 10 mins</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>45</string>
+          <string>40</string>
           <key>runrpe</key>
-          <string>7</string>
+          <string>3</string>
           <key>rundescription</key>
-          <string>Warm up for 10-15 mins easy. Interval set: 7 x 3 mins (7/10 RPE) Rest 2 mins. Cool down to finish</string>
+          <string>Warm up easy for 10-15 mins. Then do a 5 k as a time trial and take note of the time you do as a benchmark. </string>
     </dict>
     <dict>
           <key>week</key>
@@ -423,27 +427,27 @@ Cool down 10 mins</string>
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
-          <string>45</string>
+          <string>50</string>
           <key>swimrpe</key>
-          <string>4</string>
+          <string>3</string>
           <key>swimdescription</key>
-          <string>KICK 1
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Warm Up:
+100 any stroke / 50 fc/ 100 any stroke/ 50 fc
 
 Take the rest that you feel like you need between reps
 
-2 x 25m of each of:
-- Side kick (L up, R back) 
-- Fc fins
-- Side kick (R up, L back) 
-- Fc fins
-- 6 kicks on side / 1 arm pull/ 6 kicks on side
-- Fc fins
-- 6 kicks on side / 3 arm pulls/ 6 kicks on side
-- Fc fins</string>
+Main Set:
+4 x 25 - side kick (L up, R back) 
+
+2 x 50 fc fins
+
+4 x 25 6 kicks on side/ 1 arm pull/ 6 kicks on side 
+
+2 x 50 fc fins
+
+4 x 25 - 6 kicks on side/ 3 arm pulls/ 6 kicks on side 
+
+2x50 fc fins</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -483,7 +487,7 @@ Take the rest that you feel like you need between reps
 4 mins - start easy, get faster every minute to raise HR
 
 Main Set - 40 mins as:
-4 mins BIG GEAR - HIGH RESISTANCE @ 55 RPM / 2 mins recoveries
+5 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
 
 Cool down 10 mins</string>
           <key>runtime</key>
@@ -517,11 +521,15 @@ Cool down 10 mins</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>45</string>
+          <string>60</string>
           <key>runrpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>rundescription</key>
-          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+          <string>Warm up for 10-15 mins easy. 
+
+Interval set: 6 x 4 mins (7/10 RPE) Rest 2 mins. 
+
+Cool down to finish</string>
     </dict>
     <dict>
           <key>week</key>
@@ -537,23 +545,17 @@ Cool down 10 mins</string>
           <key>swimtime</key>
           <string>60</string>
           <key>swimrpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>swimdescription</key>
-          <string>EXHALING DRILL 2:
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Warm Up:
+10 mins easy swim - mix drills and full stroke
 
-Take the rest that you feel like you need between reps.
+Main Set:
+Repeat for 50 mins 
 
-6 x 25m of each of:-
-- Push off (torpedo) practice exhaling bubbles as you kick your legs. When you need to breathe, swim to the end ( any stroke) 
-- Fc, focus on exhaling
-- Blowing out through your mouth whilst your face is in the water  
-- Fc swim, focus on exhaling
-- Fc - 1&amp;3 breathing every 2 to your weak side 
-- Fc - focus on exhaling</string>
+5 x 100 pull and paddles R:20
+1 x 500 pull paddles R:30 
+R:1 min</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -585,17 +587,11 @@ Take the rest that you feel like you need between reps.
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>60</string>
+          <string>90</string>
           <key>riderpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>ridedescription</key>
-          <string>10 mins easy warm up
-4 mins - start easy, get faster every minute to raise HR
-
-Main Set - 40 mins as:
-5 mins BIG GEAR - HIGH RESISTANCE @ 55 RPM / 2 mins recoveries
-
-Cool down 10 mins</string>
+          <string></string>
           <key>runtime</key>
           <string></string>
           <key>runrpe</key>
@@ -627,17 +623,17 @@ Cool down 10 mins</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>45</string>
+          <string>30</string>
           <key>runrpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>rundescription</key>
-          <string>Warm up for 10-15 mins easy. Interval set: 5 x 5 mins (7/10 RPE) Rest 90 secs. Cool down to finish</string>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
     <dict>
           <key>week</key>
           <integer>4</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>19</string>
           <key>session</key>
@@ -649,13 +645,15 @@ Cool down 10 mins</string>
           <key>swimrpe</key>
           <string>3</string>
           <key>swimdescription</key>
-          <string>PULL &amp; PADDLES 2
-10 mins easy swim
+          <string>Warm Up:
+10 mins easy swim - mix drills and full stroke
 
-Repeat for 50 mins. 12 x 25m of each: 
-- Pull R:20 
-- Pull and paddles R:30
-- Pull R: 1 min</string>
+Main Set:
+Repeat for 50 mins 
+
+6 x 100 pull R:20
+1 x 600 pull paddles R:30 
+R: 1 min</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -673,7 +671,7 @@ Repeat for 50 mins. 12 x 25m of each:
           <key>week</key>
           <integer>4</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>20</string>
           <key>session</key>
@@ -695,7 +693,7 @@ Repeat for 50 mins. 12 x 25m of each:
 4 mins - start easy, get faster every minute to raise HR
 
 Main Set - 40 mins as:
-3 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
+6 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
 
 Cool down 10 mins</string>
           <key>runtime</key>
@@ -709,7 +707,7 @@ Cool down 10 mins</string>
           <key>week</key>
           <integer>5</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>21</string>
           <key>session</key>
@@ -729,17 +727,17 @@ Cool down 10 mins</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>60</string>
+          <string>35</string>
           <key>runrpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>rundescription</key>
-          <string>15 mins easy warm up / 5 x 5 mins Zone 4 / RPE 7  R: 2 mins</string>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
     <dict>
           <key>week</key>
           <integer>5</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>22</string>
           <key>session</key>
@@ -749,21 +747,17 @@ Cool down 10 mins</string>
           <key>swimtime</key>
           <string>60</string>
           <key>swimrpe</key>
-          <string>7</string>
+          <string>3</string>
           <key>swimdescription</key>
-          <string>PULL 2
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Warm Up:
+10 mins easy swim - mix drills and full stroke
 
-Take the rest that you feel like you need between reps
-6 x 25m of each of:
-- 10m scull (pull buoy) 15m swim 
-- Fc pull 
-- 10m doggy paddle (pull buoy) 15m swim 
-- Fc pull 
-- 10m scull (pull buoy) 15m swim</string>
+Main Set:
+Repeat for 50 mins 
+
+7 x 100 pull R:20
+1 x 700 pull paddles R:30 
+R: 1 min </string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -781,7 +775,7 @@ Take the rest that you feel like you need between reps
           <key>week</key>
           <integer>5</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>23</string>
           <key>session</key>
@@ -795,9 +789,9 @@ Take the rest that you feel like you need between reps
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>75</string>
+          <string>100</string>
           <key>riderpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
@@ -811,7 +805,7 @@ Take the rest that you feel like you need between reps
           <key>week</key>
           <integer>5</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>24</string>
           <key>session</key>
@@ -831,17 +825,21 @@ Take the rest that you feel like you need between reps
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>45</string>
+          <string>60</string>
           <key>runrpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>rundescription</key>
-          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+          <string>Warm up for 10-15 mins easy. 
+
+Interval set: 5 x 5 mins (7/10 RPE) Rest 2 mins. 
+
+Cool down to finish</string>
     </dict>
     <dict>
           <key>week</key>
           <integer>5</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>25</string>
           <key>session</key>
@@ -853,23 +851,25 @@ Take the rest that you feel like you need between reps
           <key>swimrpe</key>
           <string>3</string>
           <key>swimdescription</key>
-          <string>KICK 2
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Warm Up:
+100 any stroke / 50 fc/ 100 any stroke/ 50 fc
 
 Take the rest that you feel like you need between reps
 
-4 x 25m of each of:
-- Side kick (L up, R back) 
-- Fc fins
-- Side kick (R up, L back) 
-- Fc fins
-- 6 kicks on side / 1 arm pull/ 6 kicks on side
-- Fc fins
-- 6 kicks on side / 3 arm pulls/ 6 kicks on side
-- Fc fins</string>
+Main Set:
+4 x 50 - side kick (L up, R back) 
+
+2 x 100 fc fins
+
+4 x 50 6 kicks on side/ 1 arm pull/ 6 kicks on side 
+
+2 x 100 fc fins
+
+4 x 50 - 6 kicks on side/ 3 arm pulls/ 6 kicks on side 
+
+2x 100 fc fins
+
+Swim down</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -887,7 +887,7 @@ Take the rest that you feel like you need between reps
           <key>week</key>
           <integer>6</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>26</string>
           <key>session</key>
@@ -905,13 +905,11 @@ Take the rest that you feel like you need between reps
           <key>riderpe</key>
           <string>7</string>
           <key>ridedescription</key>
-          <string>10 mins easy warm up
-4 mins - start easy, get faster every minute to raise HR
+          <string>Warm up 15 mins
+Main Set - 35 minutes as
+2 min VO2 max (high HR, fast cadence, max effort) 2 mins recovery
 
-Main Set - 40 mins as:
-4 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
-
-Cool down 10 mins</string>
+Warm down 10 mins</string>
           <key>runtime</key>
           <string></string>
           <key>runrpe</key>
@@ -923,7 +921,7 @@ Cool down 10 mins</string>
           <key>week</key>
           <integer>6</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>27</string>
           <key>session</key>
@@ -943,17 +941,17 @@ Cool down 10 mins</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>60</string>
+          <string>40</string>
           <key>runrpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>rundescription</key>
-          <string>15 mins easy warm up / 6 x 4 mins Zone 4 / RPE 7  R: 2 mins</string>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
     <dict>
           <key>week</key>
           <integer>6</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>28</string>
           <key>session</key>
@@ -961,17 +959,19 @@ Cool down 10 mins</string>
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
-          <string>45</string>
+          <string>60</string>
           <key>swimrpe</key>
-          <string>7</string>
+          <string>3</string>
           <key>swimdescription</key>
-          <string>PULL &amp; PADDLES 3
-10 mins easy swim
+          <string>Warm Up:
+10 mins easy swim - mix drills and full stroke
 
-Repeat for 50 mins. 16 x 25m of each: 
-- Pull R:20 
-- Pull and paddles R:30
-- Pull R: 1 min</string>
+Main Set:
+Repeat for 50 mins 
+
+8 x 100 pull R:20
+2 x 400 pull paddles R:30
+R: 1min  </string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -989,11 +989,11 @@ Repeat for 50 mins. 16 x 25m of each:
           <key>week</key>
           <integer>6</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>29</string>
           <key>session</key>
-          <string>Ride</string>
+          <string>RideRun</string>
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
@@ -1003,23 +1003,23 @@ Repeat for 50 mins. 16 x 25m of each:
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>90</string>
+          <string>60</string>
           <key>riderpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string></string>
+          <string>10</string>
           <key>runrpe</key>
-          <string></string>
+          <string>4</string>
           <key>rundescription</key>
-          <string></string>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
     <dict>
           <key>week</key>
           <integer>6</integer>
           <key>phase</key>
-          <string>Build</string>
+          <string>Base</string>
           <key>day</key>
           <string>30</string>
           <key>session</key>
@@ -1041,7 +1041,7 @@ Repeat for 50 mins. 16 x 25m of each:
           <key>runtime</key>
           <string>45</string>
           <key>runrpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>rundescription</key>
           <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
@@ -1057,23 +1057,15 @@ Repeat for 50 mins. 16 x 25m of each:
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
-          <string>60</string>
+          <string>40</string>
           <key>swimrpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>swimdescription</key>
-          <string>PULL 3
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Within each 15 minute block you can take as much rest at each end as you need. Record your distance so you can track your progress. 
 
-Take the rest that you feel like you need between reps
-8 x 25m of each of:
-- 10m scull (pull buoy) 15m swim 
-- Fc pull 
-- 10m doggy paddle (pull buoy) 15m swim 
-- Fc pull 
-- 10m scull (pull buoy) 15m swim</string>
+15 mins fc - or 50 fc/25 breast stroke 
+15 mins pull buoy
+15 mins pull and paddles</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -1105,17 +1097,11 @@ Take the rest that you feel like you need between reps
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>60</string>
+          <string>90</string>
           <key>riderpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>ridedescription</key>
-          <string>10 mins easy warm up
-4 mins - start easy, get faster every minute to raise HR
-
-Main Set - 40 mins as:
-5 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
-
-Cool down 10 mins</string>
+          <string></string>
           <key>runtime</key>
           <string></string>
           <key>runrpe</key>
@@ -1151,7 +1137,11 @@ Cool down 10 mins</string>
           <key>runrpe</key>
           <string>7</string>
           <key>rundescription</key>
-          <string>15 mins easy warm up / 8 x 3 mins Zone 4 / RPE 7  R: 2 mins</string>
+          <string>Warm up for 10-15 mins easy. 
+
+Interval set: 7 x 3 mins (7/10 RPE) Rest 90 secs. 
+
+Cool down to finish</string>
     </dict>
     <dict>
           <key>week</key>
@@ -1167,15 +1157,16 @@ Cool down 10 mins</string>
           <key>swimtime</key>
           <string>60</string>
           <key>swimrpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>swimdescription</key>
-          <string>PULL &amp; PADDLES 4
-10 mins easy swim
+          <string>Warm up…
+(HR Zone 2 RPE 4) 200 fc/ 200 pull/ 200 fc
 
-Repeat for 50 mins. 18 x 25m of each: 
-- Pull R:20 
-- Pull and paddles R:30
-- Pull R: 1 min</string>
+Pre set:
+4 x 50 fc building speed each 50 (RPE 4 to 7) R:20  
+
+Main set:
+12 x 100 HR Zone 4, RPE 7 R:20 </string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -1215,7 +1206,7 @@ Repeat for 50 mins. 18 x 25m of each:
 4 mins - start easy, get faster every minute to raise HR
 
 Main Set - 40 mins as:
-6 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
+3 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
 
 Cool down 10 mins</string>
           <key>runtime</key>
@@ -1249,9 +1240,9 @@ Cool down 10 mins</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>45</string>
+          <string>50</string>
           <key>runrpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>rundescription</key>
           <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
@@ -1267,27 +1258,21 @@ Cool down 10 mins</string>
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
-          <string>60</string>
+          <string>75</string>
           <key>swimrpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>swimdescription</key>
-          <string>KICK 2
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Warm up: 
+200 easy swim / 200 pull / 200 easy swim
 
-Take the rest that you feel like you need between reps
+Main Set:
+20 x 100 pull Zone 2 / RPE 4 R:10 
 
-4 x 25m of each of:
-- Side kick (L up, R back) 
-- Fc fins
-- Side kick (R up, L back) 
-- Fc fins
-- 6 kicks on side / 1 arm pull/ 6 kicks on side
-- Fc fins
-- 6 kicks on side / 3 arm pulls/ 6 kicks on side
-- Fc fins</string>
+4 x 50 drills with fins - 6 kicks on side/ 3 arm pulls/ 6 kicks on side  R:15
+
+2 x 200 pull Zone 2/ RPE 3 R:20
+
+Swim down</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -1319,9 +1304,9 @@ Take the rest that you feel like you need between reps
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>90</string>
+          <string>120</string>
           <key>riderpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
@@ -1355,9 +1340,9 @@ Take the rest that you feel like you need between reps
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>60</string>
+          <string>55</string>
           <key>runrpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>rundescription</key>
           <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
@@ -1365,7 +1350,7 @@ Take the rest that you feel like you need between reps
           <key>week</key>
           <integer>8</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>40</string>
           <key>session</key>
@@ -1377,21 +1362,13 @@ Take the rest that you feel like you need between reps
           <key>swimrpe</key>
           <string>3</string>
           <key>swimdescription</key>
-          <string>EXHALING DRILL 3:
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Warm Up:
+600 easy - mix of swim/pull/ choice strokes Zone 2/ RPE 3
 
-Take the rest that you feel like you need between reps.
-
-8 x 25m of each of:-
-- Push off (torpedo) practice exhaling bubbles as you kick your legs. When you need to breathe, swim to the end ( any stroke) 
-- Fc, focus on exhaling
-- Blowing out through your mouth whilst your face is in the water  
-- Fc swim, focus on exhaling
-- Fc - 1&amp;3 breathing every 2 to your weak side 
-- Fc - focus on exhaling</string>
+Main set x 2 R:30
+500  swim
+400  pull
+300  pull and paddles</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -1409,11 +1386,11 @@ Take the rest that you feel like you need between reps.
           <key>week</key>
           <integer>9</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>41</string>
           <key>session</key>
-          <string>RideRun</string>
+          <string>Ride</string>
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
@@ -1423,23 +1400,29 @@ Take the rest that you feel like you need between reps.
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>75</string>
+          <string>60</string>
           <key>riderpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>ridedescription</key>
-          <string></string>
+          <string>10 mins easy warm up
+4 mins - start easy, get faster every minute to raise HR
+
+Main Set - 40 mins as:
+4 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
+
+Cool down 10 mins</string>
           <key>runtime</key>
-          <string>10</string>
+          <string></string>
           <key>runrpe</key>
-          <string>3</string>
+          <string></string>
           <key>rundescription</key>
-          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+          <string></string>
     </dict>
     <dict>
           <key>week</key>
           <integer>9</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>42</string>
           <key>session</key>
@@ -1463,13 +1446,17 @@ Take the rest that you feel like you need between reps.
           <key>runrpe</key>
           <string>7</string>
           <key>rundescription</key>
-          <string>15 mins easy warm up / 5 x 5 mins Zone 4 / RPE 7  R: 2 mins</string>
+          <string>Warm up for 10-15 mins easy. 
+
+Interval set: 7 x 4 mins (7/10 RPE) Rest 90 secs. 
+
+Cool down to finish</string>
     </dict>
     <dict>
           <key>week</key>
           <integer>9</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>43</string>
           <key>session</key>
@@ -1479,15 +1466,19 @@ Take the rest that you feel like you need between reps.
           <key>swimtime</key>
           <string>60</string>
           <key>swimrpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>swimdescription</key>
-          <string>PULL &amp; PADDLES 5
-10 mins easy swim
+          <string>Warm up:
+100 swim fc/ 200 pull fc/ 100 swim fc/ 200 pull fc / 100 kick with board R:10 between each - RPE 3 building to RPE 6 for the kick! 
 
-Repeat for 50 mins. 20 x 25m of each: 
-- Pull R:20 
-- Pull and paddles R:30
-- Pull R: 1 min</string>
+Main Set:
+8 x 100 pull R:10 RPE 6
+100 easy swim 
+
+8 x 100 pull and paddles R:10 RPE 6
+
+Drill to cool down
+4 x 50 as 12.5 scull/12.5 doggy paddle/25 swim</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -1505,11 +1496,11 @@ Repeat for 50 mins. 20 x 25m of each:
           <key>week</key>
           <integer>9</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>44</string>
           <key>session</key>
-          <string>RideRun</string>
+          <string>Ride</string>
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
@@ -1519,23 +1510,23 @@ Repeat for 50 mins. 20 x 25m of each:
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>60</string>
+          <string>135</string>
           <key>riderpe</key>
           <string>4</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>10</string>
+          <string></string>
           <key>runrpe</key>
-          <string>3</string>
+          <string></string>
           <key>rundescription</key>
-          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+          <string></string>
     </dict>
     <dict>
           <key>week</key>
           <integer>9</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>45</string>
           <key>session</key>
@@ -1555,9 +1546,9 @@ Repeat for 50 mins. 20 x 25m of each:
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>45</string>
+          <string>65</string>
           <key>runrpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>rundescription</key>
           <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
@@ -1565,7 +1556,7 @@ Repeat for 50 mins. 20 x 25m of each:
           <key>week</key>
           <integer>10</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>46</string>
           <key>session</key>
@@ -1575,9 +1566,16 @@ Repeat for 50 mins. 20 x 25m of each:
           <key>swimtime</key>
           <string>60</string>
           <key>swimrpe</key>
-          <string>7</string>
+          <string>3</string>
           <key>swimdescription</key>
-          <string>OPEN WATER SWIM - check wetsuit and acclimatise.</string>
+          <string>Warm up:
+100 swim fc/ 200 pull fc/ 100 swim fc/ 200 pull fc / 100 kick with board R:10 between each - RPE 3 building to RPE 6 for the kick!
+
+Main Set:
+8 x 200 pull and paddles R:15 RPE 6
+
+Drill to cool down
+4 x 50 as 12.5 scull/12.5 doggy paddle/25 swim</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -1595,7 +1593,7 @@ Repeat for 50 mins. 20 x 25m of each:
           <key>week</key>
           <integer>10</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>47</string>
           <key>session</key>
@@ -1611,12 +1609,15 @@ Repeat for 50 mins. 20 x 25m of each:
           <key>ridetime</key>
           <string>60</string>
           <key>riderpe</key>
-          <string>9</string>
+          <string>7</string>
           <key>ridedescription</key>
           <string>10 mins easy warm up
 4 mins - start easy, get faster every minute to raise HR
 
-Main Set - 6 x 3 mins R: 3 mins </string>
+Main Set - 40 mins as:
+5 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
+
+Cool down 10 mins</string>
           <key>runtime</key>
           <string></string>
           <key>runrpe</key>
@@ -1628,7 +1629,7 @@ Main Set - 6 x 3 mins R: 3 mins </string>
           <key>week</key>
           <integer>10</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>48</string>
           <key>session</key>
@@ -1648,17 +1649,17 @@ Main Set - 6 x 3 mins R: 3 mins </string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>60</string>
+          <string>70</string>
           <key>runrpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>rundescription</key>
-          <string>15 mins easy warm up / 6 x 4 mins Zone 4 / RPE 7  R: 2 mins</string>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
     <dict>
           <key>week</key>
           <integer>10</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>49</string>
           <key>session</key>
@@ -1668,21 +1669,17 @@ Main Set - 6 x 3 mins R: 3 mins </string>
           <key>swimtime</key>
           <string>60</string>
           <key>swimrpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>swimdescription</key>
-          <string>PULL 3
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Warm Up:
+800 SKPS (200 Swim, 200 kick with board, 200 pull, 200 swim)
 
-Take the rest that you feel like you need between reps
-8 x 25m of each of:
-- 10m scull (pull buoy) 15m swim 
-- Fc pull 
-- 10m doggy paddle (pull buoy) 15m swim 
-- Fc pull 
-- 10m scull (pull buoy) 15m swim</string>
+Main Set:
+4 x 50 fc getting faster each 50, so last one is max effort. 
+
+6 x 100 max effort with equal rest to the time it takes you to swim - ie 2 mins swim, 2 mins rest, 1:30 swim/1:30 rest 
+
+2 x 200 easy pull to cool down</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -1700,7 +1697,7 @@ Take the rest that you feel like you need between reps
           <key>week</key>
           <integer>10</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>50</string>
           <key>session</key>
@@ -1714,14 +1711,11 @@ Take the rest that you feel like you need between reps
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>60</string>
+          <string>145</string>
           <key>riderpe</key>
-          <string>8</string>
+          <string>4</string>
           <key>ridedescription</key>
-          <string>10 mins easy warm up
-4 mins - start easy, get faster every minute to raise HR
-
-Main Set - 8 x 4mins R:2 mins </string>
+          <string></string>
           <key>runtime</key>
           <string></string>
           <key>runrpe</key>
@@ -1733,7 +1727,7 @@ Main Set - 8 x 4mins R:2 mins </string>
           <key>week</key>
           <integer>11</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>51</string>
           <key>session</key>
@@ -1753,17 +1747,21 @@ Main Set - 8 x 4mins R:2 mins </string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>45</string>
+          <string>60</string>
           <key>runrpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>rundescription</key>
-          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+          <string>Warm up for 10-15 mins easy. 
+
+Interval set: 5 x 5 mins (7/10 RPE) Rest 90 secs. 
+
+Cool down to finish</string>
     </dict>
     <dict>
           <key>week</key>
           <integer>11</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>52</string>
           <key>session</key>
@@ -1773,25 +1771,15 @@ Main Set - 8 x 4mins R:2 mins </string>
           <key>swimtime</key>
           <string>60</string>
           <key>swimrpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>swimdescription</key>
-          <string>KICK 2
-4 x any stroke
-2 x fc
-4 x any stroke
-2 x fc
+          <string>Warm Up:
+800 SKPS (200 swim/200 kick/200 pull/200 swim)
 
-Take the rest that you feel like you need between reps
+Main Set:
+16 x 100 RPE 7 / Zone 4 
 
-4 x 25m of each of:
-- Side kick (L up, R back) 
-- Fc fins
-- Side kick (R up, L back) 
-- Fc fins
-- 6 kicks on side / 1 arm pull/ 6 kicks on side
-- Fc fins
-- 6 kicks on side / 3 arm pulls/ 6 kicks on side
-- Fc fins</string>
+R:15 secs</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -1809,7 +1797,7 @@ Take the rest that you feel like you need between reps
           <key>week</key>
           <integer>11</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>53</string>
           <key>session</key>
@@ -1825,12 +1813,15 @@ Take the rest that you feel like you need between reps
           <key>ridetime</key>
           <string>60</string>
           <key>riderpe</key>
-          <string>8</string>
+          <string>7</string>
           <key>ridedescription</key>
           <string>10 mins easy warm up
 4 mins - start easy, get faster every minute to raise HR
 
-Main Set - 4 x 8mins R:2 mins </string>
+Main Set - 40 mins as:
+6 mins BIG GEAR - HIGH RESISTANCE @ 65 RPM / 2 mins recoveries
+
+Cool down 10 mins</string>
           <key>runtime</key>
           <string></string>
           <key>runrpe</key>
@@ -1842,7 +1833,7 @@ Main Set - 4 x 8mins R:2 mins </string>
           <key>week</key>
           <integer>11</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>54</string>
           <key>session</key>
@@ -1862,17 +1853,17 @@ Main Set - 4 x 8mins R:2 mins </string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>60</string>
+          <string>80</string>
           <key>runrpe</key>
-          <string>7</string>
+          <string>4</string>
           <key>rundescription</key>
-          <string>15 mins easy warm up / 8 x 3 mins Zone 4 / RPE 7  R: 2 mins</string>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
     <dict>
           <key>week</key>
           <integer>11</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>55</string>
           <key>session</key>
@@ -1882,9 +1873,18 @@ Main Set - 4 x 8mins R:2 mins </string>
           <key>swimtime</key>
           <string>60</string>
           <key>swimrpe</key>
-          <string>7</string>
+          <string>3</string>
           <key>swimdescription</key>
-          <string>OPEN WATER SWIM </string>
+          <string>Warm up:
+4 x 100 fc easy R:10 / 400 easy fc pull
+
+Main set x 3: 
+400 fc pull (RPE 4) R:15
+8 x 25 max effort (RPE 9) fc with band on ankles R:10
+
+6 x 50 drill with pull buoy - (12.5m front scull/12,5m doggy paddle, 25m pull fc)
+
+Swim down</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -1902,11 +1902,11 @@ Main Set - 4 x 8mins R:2 mins </string>
           <key>week</key>
           <integer>12</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>56</string>
           <key>session</key>
-          <string>RideRun</string>
+          <string>Ride</string>
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
@@ -1916,91 +1916,25 @@ Main Set - 4 x 8mins R:2 mins </string>
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>90</string>
+          <string>155</string>
           <key>riderpe</key>
           <string>4</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>20</string>
+          <string></string>
           <key>runrpe</key>
-          <string>3</string>
+          <string></string>
           <key>rundescription</key>
-          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+          <string></string>
     </dict>
     <dict>
           <key>week</key>
           <integer>12</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
           <string>57</string>
-          <key>session</key>
-          <string>Swim</string>
-          <key>completed</key>
-          <string>0</string>
-          <key>swimtime</key>
-          <string>60</string>
-          <key>swimrpe</key>
-          <string>3</string>
-          <key>swimdescription</key>
-          <string>PULL &amp; PADDLES 5
-10 mins easy swim
-
-Repeat for 50 mins. 20 x 25m of each: 
-- Pull R:20 
-- Pull and paddles R:30
-- Pull R: 1 min</string>
-          <key>ridetime</key>
-          <string></string>
-          <key>riderpe</key>
-          <string></string>
-          <key>ridedescription</key>
-          <string></string>
-          <key>runtime</key>
-          <string></string>
-          <key>runrpe</key>
-          <string></string>
-          <key>rundescription</key>
-          <string></string>
-    </dict>
-    <dict>
-          <key>week</key>
-          <integer>12</integer>
-          <key>phase</key>
-          <string>Race</string>
-          <key>day</key>
-          <string>58</string>
-          <key>session</key>
-          <string>RideRun</string>
-          <key>completed</key>
-          <string>0</string>
-          <key>swimtime</key>
-          <string></string>
-          <key>swimrpe</key>
-          <string></string>
-          <key>swimdescription</key>
-          <string></string>
-          <key>ridetime</key>
-          <string>90</string>
-          <key>riderpe</key>
-          <string>4</string>
-          <key>ridedescription</key>
-          <string></string>
-          <key>runtime</key>
-          <string>10</string>
-          <key>runrpe</key>
-          <string>3</string>
-          <key>rundescription</key>
-          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
-    </dict>
-    <dict>
-          <key>week</key>
-          <integer>12</integer>
-          <key>phase</key>
-          <string>Race</string>
-          <key>day</key>
-          <string>59</string>
           <key>session</key>
           <string>Run</string>
           <key>completed</key>
@@ -2018,19 +1952,20 @@ Repeat for 50 mins. 20 x 25m of each:
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>45</string>
+          <string>60</string>
           <key>runrpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>rundescription</key>
-          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+          <string>Progression run: 
+Start easy at RPE 4, every 15 minutes increase your RPE by 1 so that you finish the last 15 minutes at RPE 7</string>
     </dict>
     <dict>
           <key>week</key>
           <integer>12</integer>
           <key>phase</key>
-          <string>Race</string>
+          <string>Build</string>
           <key>day</key>
-          <string>60</string>
+          <string>58</string>
           <key>session</key>
           <string>Swim</string>
           <key>completed</key>
@@ -2038,15 +1973,19 @@ Repeat for 50 mins. 20 x 25m of each:
           <key>swimtime</key>
           <string>60</string>
           <key>swimrpe</key>
-          <string>3</string>
+          <string>7</string>
           <key>swimdescription</key>
-          <string>PULL &amp; PADDLES 2
-10 mins easy swim
+          <string>Warm up: 
+200 fc easy breathing 3,5,3,5/200 Blowing out through your mouth whilst your face is in the water /200 fc easy
 
-Repeat for 50 mins. 12 x 25m of each: 
-- Pull R:20 
-- Pull and paddles R:30
-- Pull R: 1 min</string>
+Main Set:
+4 x 50 fc build #1 is easy,#4 is hard
+
+6 x 200 at Zone 4/ RPE 7 R:20
+
+400 pull and paddles fc Zone 2 /RPE 3
+
+Swim down</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -2062,6 +2001,70 @@ Repeat for 50 mins. 12 x 25m of each:
     </dict>
     <dict>
           <key>week</key>
+          <integer>12</integer>
+          <key>phase</key>
+          <string>Build</string>
+          <key>day</key>
+          <string>59</string>
+          <key>session</key>
+          <string>Ride</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string>60</string>
+          <key>riderpe</key>
+          <string>7</string>
+          <key>ridedescription</key>
+          <string>Warm up 15 mins
+Main Set - 35 minutes as
+2 min VO2 max (high HR, fast cadence, max effort) 2 mins recovery
+
+Warm down 10 mins</string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>12</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>60</string>
+          <key>session</key>
+          <string>Run</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>90</string>
+          <key>runrpe</key>
+          <string>4</string>
+          <key>rundescription</key>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+    </dict>
+    <dict>
+          <key>week</key>
           <integer>13</integer>
           <key>phase</key>
           <string>Race</string>
@@ -2072,11 +2075,15 @@ Repeat for 50 mins. 12 x 25m of each:
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
-          <string>30</string>
+          <string>40</string>
           <key>swimrpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>swimdescription</key>
-          <string>Easy fc</string>
+          <string>Within each 15 minute block you can take as much rest at each end as you need. Record your distance so you can track your progress. 
+
+15 mins fc - or 50 fc/25 breast stroke 
+15 mins pull buoy
+15 mins pull and paddles</string>
           <key>ridetime</key>
           <string></string>
           <key>riderpe</key>
@@ -2098,7 +2105,7 @@ Repeat for 50 mins. 12 x 25m of each:
           <key>day</key>
           <string>62</string>
           <key>session</key>
-          <string>Ride</string>
+          <string>RideRun</string>
           <key>completed</key>
           <string>0</string>
           <key>swimtime</key>
@@ -2108,17 +2115,17 @@ Repeat for 50 mins. 12 x 25m of each:
           <key>swimdescription</key>
           <string></string>
           <key>ridetime</key>
-          <string>45</string>
+          <string>75</string>
           <key>riderpe</key>
-          <string>3</string>
+          <string>4</string>
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string></string>
+          <string>15</string>
           <key>runrpe</key>
-          <string></string>
+          <string>4</string>
           <key>rundescription</key>
-          <string></string>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
     </dict>
     <dict>
           <key>week</key>
@@ -2144,7 +2151,880 @@ Repeat for 50 mins. 12 x 25m of each:
           <key>ridedescription</key>
           <string></string>
           <key>runtime</key>
-          <string>20</string>
+          <string>60</string>
+          <key>runrpe</key>
+          <string>7</string>
+          <key>rundescription</key>
+          <string>Progression run:
+Start easy at RPE 4, every 15 minutes increase your RPE by 1 so that you finish the last 15 minutes at RPE 7</string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>13</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>64</string>
+          <key>session</key>
+          <string>Swim</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string>60</string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string>Warm up:
+(HR Zone 2 RPE 4) 200 fc/ 200 pull/ 200 fc. 
+
+Pre set:
+4 x 50 fc building speed each 50 (RPE 4 to 7) R:20  
+
+Main set:
+12 x 100 HR Zone 4, RPE 7 R:20 </string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>13</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>65</string>
+          <key>session</key>
+          <string>Ride</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string>60</string>
+          <key>riderpe</key>
+          <string>7</string>
+          <key>ridedescription</key>
+          <string>10 mins easy warm up
+4 mins - start easy, get faster every minute to raise HR
+
+Main Set - 6 x 3 mins R: 3 mins </string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>14</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>66</string>
+          <key>session</key>
+          <string>Run</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>75</string>
+          <key>runrpe</key>
+          <string>4</string>
+          <key>rundescription</key>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>14</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>67</string>
+          <key>session</key>
+          <string>Swim</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string>60</string>
+          <key>swimrpe</key>
+          <string>7</string>
+          <key>swimdescription</key>
+          <string>Warm Up:
+800 SKPS (200 Swim, 200 kick with board, 200 pull, 200 swim)
+
+Main Set:
+4 x 50 fc getting faster each 50, so last one is max effort. 
+
+6 x 100 max effort with equal rest to the time it takes you to swim - ie 2 mins swim, 2 mins rest, 1:30 swim/1:30 rest 
+
+2 x 200 easy pull to cool down</string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>14</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>68</string>
+          <key>session</key>
+          <string>RideRun</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string>90</string>
+          <key>riderpe</key>
+          <string>4</string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>15</string>
+          <key>runrpe</key>
+          <string>4</string>
+          <key>rundescription</key>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>14</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>69</string>
+          <key>session</key>
+          <string>Run</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>60</string>
+          <key>runrpe</key>
+          <string>7</string>
+          <key>rundescription</key>
+          <string>15 mins easy warm up  
+
+8 x 3 mins Zone 4 / RPE 7  R: 2 mins</string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>14</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>70</string>
+          <key>session</key>
+          <string>Swim</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string>60</string>
+          <key>swimrpe</key>
+          <string>7</string>
+          <key>swimdescription</key>
+          <string>Warm up:
+200 fc easy breathing 3,5,3,5/200 Blowing out through your mouth whilst your face is in the water /200 fc easy
+
+Main Set:
+4 x 50 fc build #1 is easy,#4 is hard
+
+6 x 250 at Zone 4 / RPE 7  R:20
+
+400 pull and paddles fc Zone 2 RPE 3
+
+Swim down</string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>15</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>71</string>
+          <key>session</key>
+          <string>Ride</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string>60</string>
+          <key>riderpe</key>
+          <string>7</string>
+          <key>ridedescription</key>
+          <string>10 mins easy warm up
+4 mins - start easy, get faster every minute to raise HR
+
+Main Set - 8 x 4mins R:2 mins </string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>15</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>72</string>
+          <key>session</key>
+          <string>Run</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>60</string>
+          <key>runrpe</key>
+          <string>3</string>
+          <key>rundescription</key>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>15</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>73</string>
+          <key>session</key>
+          <string>Swim</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string>60</string>
+          <key>swimrpe</key>
+          <string>4</string>
+          <key>swimdescription</key>
+          <string>Warm up:
+100 swim fc/ 200 pull fc/ 100 swim fc/ 200 pull fc / 100 kick with board R:10 between each - RPE 3 building to RPE 6 for the kick! 
+
+Main Set:
+8 x 100 pull R:10 RPE 6
+100 easy swim 
+
+8 x 100 pull and paddles R:10 RPE 6
+
+Drill to cool down
+4 x 50 as 12.5 scull/12.5 doggy paddle/25 swim</string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>15</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>74</string>
+          <key>session</key>
+          <string>Ride</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string>165</string>
+          <key>riderpe</key>
+          <string>4</string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>15</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>75</string>
+          <key>session</key>
+          <string>Run</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>30</string>
+          <key>runrpe</key>
+          <string>3</string>
+          <key>rundescription</key>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>16</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>76</string>
+          <key>session</key>
+          <string>Swim</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string>60</string>
+          <key>swimrpe</key>
+          <string>7</string>
+          <key>swimdescription</key>
+          <string>OPEN WATER SWIM - check wetsuit and acclimatise.</string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>16</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>77</string>
+          <key>session</key>
+          <string>RideRun</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string>90</string>
+          <key>riderpe</key>
+          <string>4</string>
+          <key>ridedescription</key>
+          <string>Race pace</string>
+          <key>runtime</key>
+          <string>15</string>
+          <key>runrpe</key>
+          <string>4</string>
+          <key>rundescription</key>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>16</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>78</string>
+          <key>session</key>
+          <string>Run</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>60</string>
+          <key>runrpe</key>
+          <string>7</string>
+          <key>rundescription</key>
+          <string>Progression run: 
+Start easy at RPE 4, every 15 minutes increase your RPE by 1 so that you finish the last 15 minutes at RPE 7</string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>16</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>79</string>
+          <key>session</key>
+          <string>Swim</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string>60</string>
+          <key>swimrpe</key>
+          <string>3</string>
+          <key>swimdescription</key>
+          <string>Warm up:
+100 swim fc/ 200 pull fc/ 100 swim fc/ 200 pull fc / 100 kick with board R:10 between each - RPE 3 building to RPE 6 for the kick!
+
+Main Set:
+8 x 200 pull and paddles R:15 RPE 6
+
+Drill to cool down
+4 x 50 as 12.5 scull/12.5 doggy paddle/25 swim</string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>16</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>80</string>
+          <key>session</key>
+          <string>Ride</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string>140</string>
+          <key>riderpe</key>
+          <string>4</string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>17</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>81</string>
+          <key>session</key>
+          <string>Run</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>70</string>
+          <key>runrpe</key>
+          <string>3</string>
+          <key>rundescription</key>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>17</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>82</string>
+          <key>session</key>
+          <string>Swim</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string>60</string>
+          <key>swimrpe</key>
+          <string>7</string>
+          <key>swimdescription</key>
+          <string>OPEN WATER SWIM</string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>17</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>83</string>
+          <key>session</key>
+          <string>Ride</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string>60</string>
+          <key>riderpe</key>
+          <string>7</string>
+          <key>ridedescription</key>
+          <string>10 mins easy warm up
+4 mins - start easy, get faster every minute to raise HR
+
+Main Set - 4 x 5 mins R: 2 mins </string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>17</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>84</string>
+          <key>session</key>
+          <string>Run</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>60</string>
+          <key>runrpe</key>
+          <string>7</string>
+          <key>rundescription</key>
+          <string>Progression run: 
+Start easy at RPE 4, every 15 minutes increase your RPE by 1 so that you finish the last 15 minutes at RPE 7</string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>17</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>85</string>
+          <key>session</key>
+          <string>Swim</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string>60</string>
+          <key>swimrpe</key>
+          <string>7</string>
+          <key>swimdescription</key>
+          <string>OPEN WATER SWIM</string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>18</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>86</string>
+          <key>session</key>
+          <string>Ride</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string>60</string>
+          <key>riderpe</key>
+          <string>4</string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>18</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>87</string>
+          <key>session</key>
+          <string>Run</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>30</string>
+          <key>runrpe</key>
+          <string>3</string>
+          <key>rundescription</key>
+          <string>Run easy, with breathing light. You should be able to hold a conversation through out </string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>18</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>88</string>
+          <key>session</key>
+          <string>Swim</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string>60</string>
+          <key>swimrpe</key>
+          <string>3</string>
+          <key>swimdescription</key>
+          <string>Warm Up:
+600 easy - mix of swim/pull/ choice strokes
+Zone 2/ RPE 3
+
+Main set x 2 R:30
+500  swim
+400  pull
+300  pull and paddles</string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>18</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>89</string>
+          <key>session</key>
+          <string>Ride</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string>30</string>
+          <key>riderpe</key>
+          <string>4</string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string></string>
+          <key>runrpe</key>
+          <string></string>
+          <key>rundescription</key>
+          <string></string>
+    </dict>
+    <dict>
+          <key>week</key>
+          <integer>18</integer>
+          <key>phase</key>
+          <string>Race</string>
+          <key>day</key>
+          <string>90</string>
+          <key>session</key>
+          <string>Run</string>
+          <key>completed</key>
+          <string>0</string>
+          <key>swimtime</key>
+          <string></string>
+          <key>swimrpe</key>
+          <string></string>
+          <key>swimdescription</key>
+          <string></string>
+          <key>ridetime</key>
+          <string></string>
+          <key>riderpe</key>
+          <string></string>
+          <key>ridedescription</key>
+          <string></string>
+          <key>runtime</key>
+          <string>15</string>
           <key>runrpe</key>
           <string>3</string>
           <key>rundescription</key>

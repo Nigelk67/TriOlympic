@@ -19,7 +19,7 @@ struct MetricView: View {
             VStack {
                 Spacer()
                 Text("Personalise Your Plan")
-                    .foregroundColor(Color.accentButton)
+                    .foregroundColor(Color.mainText)
                     .font(.system(size: 32, weight: .medium, design: .rounded))
                     .padding(.vertical)
                 Spacer()

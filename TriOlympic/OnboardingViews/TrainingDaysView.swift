@@ -24,7 +24,7 @@ struct TrainingDaysView: View {
             VStack {
                 Spacer()
                 Text("Personalise Your Plan")
-                    .foregroundColor(Color.accentButton)
+                    .foregroundColor(Color.mainText)
                     .font(.system(size: 32, weight: .medium, design: .rounded))
                     .padding(.vertical)
                 Spacer()
@@ -154,12 +154,12 @@ extension TrainingDaysView {
             VStack {
                 Text("Are you sure?")
                     .font(.system(size: 32, weight: .medium, design: .rounded))
-                    .foregroundColor(.white)
+                    .foregroundColor(Color.mainText)
                     .multilineTextAlignment(.center)
                     .padding()
                 Text("As you've said your fitness level is not that good, we suggest you train either 3 or 4 days per week to avoid any injuries and to build your fitness level gradually.")
                     .font(.system(size: 20, weight: .light, design: .rounded))
-                    .foregroundColor(.white)
+                    .foregroundColor(Color.mainText)
                     .multilineTextAlignment(.center)
                     .padding()
                 
@@ -167,7 +167,7 @@ extension TrainingDaysView {
                     showWarning = false
                 } label: {
                     Text("OK, I'll select another amount")
-                        .foregroundColor(Color.mainButton)
+                        .foregroundColor(Color.accentButton)
                         .font(.system(size: 24, weight: .regular, design: .rounded))
                         .multilineTextAlignment(.center)
                         .padding()
@@ -181,7 +181,7 @@ extension TrainingDaysView {
                     trainingPlanVm.showLoadingSpinner()
                 } label: {
                     Text("I'm ok with training 5 days per week")
-                        .foregroundColor(Color.mainButton)
+                        .foregroundColor(Color.accentButton)
                         .font(.system(size: 24, weight: .regular, design: .rounded))
                         .multilineTextAlignment(.center)
                         .padding()
