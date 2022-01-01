@@ -227,7 +227,6 @@
 				9BE9DF02277602D300F30BCD /* Ratings */,
 				9BE9DF11277602D300F30BCD /* SessionViewModel */,
 				9BE9DF06277602D300F30BCD /* Settings */,
-				9BE9DF04277602D300F30BCD /* TrainingViewModel */,
 				9BE9DF27277602E500F30BCD /* Utils */,
 				9BE9DD992775D5C600F30BCD /* ContentView.swift */,
 				9BE9DDA02775D5C800F30BCD /* Persistence.swift */,
@@ -363,6 +362,7 @@
 		9BE9DEDF277602BD00F30BCD /* OnboardingViews */ = {
 			isa = PBXGroup;
 			children = (
+				9BE9DF04277602D300F30BCD /* TrainingViewModel */,
 				9BE9DEE3277602BD00F30BCD /* PersonaliseView.swift */,
 				9BE9DEE1277602BD00F30BCD /* FirstTriathlonView.swift */,
 				9BE9DEE0277602BD00F30BCD /* FitnessLevelView.swift */,
