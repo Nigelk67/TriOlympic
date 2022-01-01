@@ -22,7 +22,7 @@ struct TriOlympicApp: App {
         UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .normal)
         UITabBar.appearance().backgroundColor = UIColor(Color.accentButton)
         UITabBar.appearance().barTintColor = UIColor(Color.accentButton)
-        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.mainBackground)
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.gray.opacity(0.6))
     }
     
     @StateObject var loginViewModel: LoginViewModel = LoginViewModel()
