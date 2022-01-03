@@ -15,7 +15,7 @@ struct RatingsView: View {
     var onImage = Image(systemName: "star.fill")
     var offColor = Color.gray
     var onColor = Color.yellow
-    let appStoreReviewUrl = "https://apps.apple.com/app/id1600927404?action=write-review"
+    let appId = "id1603047925"
     @State private var showMailView = false
     @Environment(\.presentationMode) private var presentationMode
     
@@ -68,6 +68,7 @@ struct RatingsView: View {
     }
     
     func goToAppStoreReview() {
+        let appStoreReviewUrl = "https://apps.apple.com/app/\(appId)?action=write-review"
         guard let writeReviewUrl = URL(string: appStoreReviewUrl) else { fatalError("Expected a valid URL")}
         UIApplication.shared.open(writeReviewUrl, options: [:], completionHandler: nil)
     }
