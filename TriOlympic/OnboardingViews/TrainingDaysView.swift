@@ -64,7 +64,7 @@ extension TrainingDaysView {
                 .padding(.vertical)
                 .multilineTextAlignment(.center)
                 .padding()
-            Text("Note: All plans last for 13 weeks")
+            Text("Note: All plans last for 18 weeks")
                 .foregroundColor(Color.mainText)
                 .font(.system(size: 20, weight: .regular, design: .rounded))
                 .padding(.vertical)
