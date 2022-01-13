@@ -42,7 +42,12 @@ class LoginViewModel: ObservableObject {
     func signUp(name: String, email: String, password: String) {
         if isValidEmail(email: email) && isValidPassword(password: password) {
             auth.createUser(withEmail: email, password: password) { result, error in
-                guard result != nil, error == nil else { return }
+                if error != nil {
+                    print("Error signing in",error?.localizedDescription ?? "")
+                    self.isNotValidSignUp = true
+                    self.signedIn = false
+                }
+                guard result != nil else { return }
                 self.addUserToFirebase(name: name, email: email)
                 self.signedIn = true
                 self.onBoarded = false

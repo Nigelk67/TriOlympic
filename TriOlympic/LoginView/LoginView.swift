@@ -170,13 +170,6 @@ extension LoginView {
                 
             }
             .padding()
-            
-//            Image(TrainingImageNames.trainingRun.rawValue)
-//                .resizable()
-//                .scaledToFit()
-//                .frame(width: imageWidth)
-//                .padding(imagePadding)
-//                .opacity(imageOpacity)
                 
         }
     }
